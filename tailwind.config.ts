@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'destinations-hero': "url('https://images.unsplash.com/photo-1598581993348-39947aa75582?q=80&w=2574&auto=format&fit=crop')",
+        'destinations-hero': "url('https://images.unsplash.com/photo-1578519050142-afb511e518de?q=80&w=2574&auto=format&fit=crop')",
       },
       fontFamily: {
         sans: ['"Plus Jakarta Sans"', 'sans-serif'],
