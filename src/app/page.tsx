@@ -3,7 +3,6 @@ import { DestinationHighlights } from '@/components/sections/DestinationHighligh
 import { Features } from '@/components/sections/Features';
 import { Cta } from '@/components/sections/Cta';
 import { Testimonials } from '@/components/sections/Testimonials';
-import { FaqSection } from '@/components/sections/FaqSection';
 
 const destinations = [
   { name: 'Sigiriya', imageId: 'sigiriya-destination', shortDesc: 'Ancient Rock Fortress' },

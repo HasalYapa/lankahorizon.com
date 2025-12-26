@@ -36,7 +36,7 @@ export function Footer() {
                     <h3 className="text-sm font-bold text-ocean-blue dark:text-white uppercase tracking-wider mb-4">Quick Links</h3>
                     <ul className="space-y-3">
                         {NAV_ITEMS.map(item => (
-                             <li key={item.href}><a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href={item.href}>{item.title}</a></li>
+                             <li key={item.href}><Link className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href={item.href}>{item.title}</Link></li>
                         ))}
                     </ul>
                 </div>
@@ -44,10 +44,10 @@ export function Footer() {
                 <div>
                     <h3 className="text-sm font-bold text-ocean-blue dark:text-white uppercase tracking-wider mb-4">Top Tours</h3>
                     <ul className="space-y-3">
-                        <li><a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Hill Country Explorer</a></li>
-                        <li><a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Coastal Paradise</a></li>
-                        <li><a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Cultural Triangle</a></li>
-                        <li><a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Wildlife Safari</a></li>
+                        <li><Link className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Hill Country Explorer</Link></li>
+                        <li><Link className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Coastal Paradise</Link></li>
+                        <li><Link className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Cultural Triangle</Link></li>
+                        <li><Link className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Wildlife Safari</Link></li>
                     </ul>
                 </div>
 

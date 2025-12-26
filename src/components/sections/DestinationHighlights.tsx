@@ -48,6 +48,7 @@ export function DestinationHighlights({ destinations }: DestinationHighlightsPro
                                 fill
                                 className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                                 data-ai-hint={image.imageHint}
+                                data-ai-placeholder="true"
                             />
                             <div className="absolute bottom-0 left-0 p-6 z-20">
                                 <h3 className="text-xl font-bold text-white mb-1">{dest.name}</h3>

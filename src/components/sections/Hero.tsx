@@ -24,6 +24,7 @@ export function Hero() {
                 className="object-cover"
                 priority
                 data-ai-hint={heroImage.imageHint}
+                data-ai-placeholder="true"
             />
         </div>
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 w-full">
@@ -55,9 +56,9 @@ export function Hero() {
 
                     <div className="flex items-center gap-6 mt-8 pt-8 border-t border-white/20 w-full">
                         <div className="flex -space-x-3">
-                            <Image alt="Happy traveler face" width={40} height={40} className="w-10 h-10 rounded-full border-2 border-white object-cover" src={avatar1.imageUrl} data-ai-hint={avatar1.imageHint}/>
-                            <Image alt="Happy traveler face" width={40} height={40} className="w-10 h-10 rounded-full border-2 border-white object-cover" src={avatar2.imageUrl} data-ai-hint={avatar2.imageHint}/>
-                            <Image alt="Happy traveler face" width={40} height={40} className="w-10 h-10 rounded-full border-2 border-white object-cover" src={avatar3.imageUrl} data-ai-hint={avatar3.imageHint}/>
+                            <Image alt="Happy traveler face" width={40} height={40} className="w-10 h-10 rounded-full border-2 border-white object-cover" src={avatar1.imageUrl} data-ai-hint={avatar1.imageHint} data-ai-placeholder="true"/>
+                            <Image alt="Happy traveler face" width={40} height={40} className="w-10 h-10 rounded-full border-2 border-white object-cover" src={avatar2.imageUrl} data-ai-hint={avatar2.imageHint} data-ai-placeholder="true"/>
+                            <Image alt="Happy traveler face" width={40} height={40} className="w-10 h-10 rounded-full border-2 border-white object-cover" src={avatar3.imageUrl} data-ai-hint={avatar3.imageHint} data-ai-placeholder="true"/>
                         </div>
                         <div className="flex flex-col">
                             <div className="flex items-center gap-1 text-primary">
@@ -76,6 +77,7 @@ export function Hero() {
                             src={nineArchImage.imageUrl}
                             fill
                             data-ai-hint={nineArchImage.imageHint}
+                            data-ai-placeholder="true"
                         />
                         <div className="absolute bottom-4 left-4 right-4 p-4 bg-white/90 backdrop-blur-md rounded-2xl shadow-lg">
                             <div className="flex items-center justify-between mb-1">

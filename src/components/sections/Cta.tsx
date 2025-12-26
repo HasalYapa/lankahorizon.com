@@ -19,6 +19,7 @@ export function Cta() {
                 fill
                 className="object-cover"
                 data-ai-hint={ctaImage.imageHint}
+                data-ai-placeholder="true"
             />
             <div className="relative z-20 px-8 py-16 md:py-24 text-center">
                 <h2 className="text-3xl md:text-5xl font-black text-white mb-6 tracking-tight max-w-2xl mx-auto">Ready for your Sri Lankan Adventure?</h2>

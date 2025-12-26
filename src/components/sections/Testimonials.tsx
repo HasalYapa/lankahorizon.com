@@ -34,6 +34,7 @@ export function Testimonials() {
                                     width={48}
                                     height={48}
                                     data-ai-hint={avatarImage.imageHint}
+                                    data-ai-placeholder="true"
                                     />
                                 <div>
                                     <h4 className="font-bold text-ocean-blue dark:text-white">{testimonial.name}</h4>
