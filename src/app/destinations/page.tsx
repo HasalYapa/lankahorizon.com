@@ -1,5 +1,4 @@
 'use client';
-import type { Metadata } from 'next';
 import './destination-styles.css';
 import { CustomItineraryForm } from '@/components/CustomItineraryForm';
 import { tourPackages } from '@/lib/data';
@@ -33,7 +32,7 @@ export default function DestinationsPage() {
                     <div
                         className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 hero-bg-image"
                     ></div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-background-dark/80 via-transparent to-transparent lg:bg-black/20"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent lg:bg-black/20"></div>
                     <div className="absolute bottom-0 left-0 p-8 lg:p-12 text-white">
                         <div className="flex items-center gap-2 mb-4">
                             <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider border border-white/30">
@@ -51,14 +50,14 @@ export default function DestinationsPage() {
                 </div>
 
                 {/* Right Side: Form (Scrollable) */}
-                <div className="w-full lg:w-7/12 xl:w-1/2 bg-background-light dark:bg-background-dark flex flex-col items-center p-4 py-12 sm:p-12 lg:p-16 xl:p-24 overflow-y-auto">
+                <div className="w-full lg:w-7/12 xl:w-1/2 flex flex-col items-center p-4 py-12 sm:p-12 lg:p-16 xl:p-24 overflow-y-auto">
                     <div className="w-full max-w-[600px] flex flex-col gap-8">
                         {/* Header */}
                         <div className="flex flex-col gap-2">
-                            <h2 className="text-3xl sm:text-4xl font-bold text-text-light dark:text-white tracking-tight">
+                            <h2 className="text-3xl sm:text-4xl font-bold text-text-light tracking-tight">
                                 Design Your Itinerary
                             </h2>
-                            <p className="text-gray-500 dark:text-gray-400 text-base sm:text-lg">
+                            <p className="text-gray-500 text-base sm:text-lg">
                                 Tell us what you love, and our local experts will craft the perfect itinerary just for
                                 you.
                             </p>

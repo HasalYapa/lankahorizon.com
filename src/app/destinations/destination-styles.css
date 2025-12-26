@@ -44,8 +44,10 @@
 
 .destinations-page-container input,
 .destinations-page-container textarea {
-    @apply w-full h-14 rounded-xl border bg-white px-4 text-base outline-none transition-all;
+    @apply w-full h-14 rounded-xl border px-4 text-base outline-none transition-all;
     border-color: var(--input-border-light);
+    background-color: var(--input-bg-light);
+    color: var(--text-light);
 }
 
 .destinations-page-container textarea {
@@ -80,36 +82,15 @@
 .dark .destinations-page-container input[type="date"] {
     color-scheme: dark;
 }
-
-.destinations-page-container .border-input-border-light {
-  border-color: var(--input-border-light);
-}
- .dark .destinations-page-container .border-input-border-dark {
-  border-color: var(--input-border-dark);
-}
-
-.destinations-page-container .bg-background-light {
-  background-color: var(--background-light);
-}
-
-.dark .destinations-page-container .bg-background-dark {
-    background-color: var(--background-dark);
-}
-
-.destinations-page-container .text-text-light {
-    color: var(--text-light);
-}
-
-.dark .destinations-page-container .text-text-dark {
-    color: var(--text-dark);
-}
- .dark .destinations-page-container .text-white {
-    color: var(--text-dark);
-}
-
- .destinations-page-container .dark\\:bg-input-bg-dark {
-    background-color: var(--input-bg-dark);
- }
+ 
  .destinations-page-container .hero-bg-image {
     background-image: url('https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1966&auto=format&fit=crop');
  }
+ 
+ .destinations-page-container .text-text-light {
+    color: var(--text-light);
+}
+
+.dark .destinations-page-container .text-text-light {
+    color: var(--text-dark);
+}
