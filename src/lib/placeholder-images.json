@@ -86,9 +86,9 @@
     },
     {
       "id": "mirissa-beach",
-      "description": "Beautiful sandy beach in Mirissa with palm trees",
-      "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sri lanka beach",
+      "description": "A stunning view of the iconic Parrot Rock in Mirissa, Sri Lanka, with waves crashing against the shore at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1620299249118-8d415d862955?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaXJpc3NhJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY4MDM0NTc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
     {
@@ -107,9 +107,9 @@
     },
     {
       "id": "cta-background",
-      "description": "Panoramic view of tea plantation hills with mist",
-      "imageUrl": "https://images.unsplash.com/photo-1552083375-1447ce886485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWElMjBwbGFudGF0aW9uJTIwaGlsbHN8ZW58MHx8fHwxNzY3NTk0MzY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "tea plantation",
+      "description": "Iconic blue train crossing a bridge in the Sri Lankan highlands, surrounded by lush green tea plantations.",
+      "imageUrl": "https://images.unsplash.com/photo-1598971987343-5ee5933a499a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcmklMjBsYW5rYSUyMHRyYWlufGVufDB8fHx8MTc2Njc2MzI5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sri lanka train",
       "data-ai-placeholder": "true"
     },
     {
