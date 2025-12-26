@@ -15,13 +15,27 @@ interface TourCardProps {
 export function TourCard({ tour }: TourCardProps) {
   const tourImage = getImage(tour.image);
   const message = encodeURIComponent(`Hello LankaHorizon, I want to book the "${tour.name}" package.`);
-  const price = Math.floor(Math.random() * (600 - 300 + 1)) + 300;
+  
+  const getBadgeVariant = (type: string) => {
+    switch (type) {
+      case 'Luxury':
+        return 'default';
+      case 'Adventure':
+        return 'secondary';
+      case 'Family':
+        return 'destructive';
+      case 'Best Seller':
+      default:
+        return 'default';
+    }
+  };
+
 
   return (
     <div className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-green-100 transition-all duration-300 border border-slate-100 flex flex-col h-full">
         <div className="relative h-60 overflow-hidden">
             <div className="absolute top-4 left-4 z-10 flex gap-2">
-                <Badge className="bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full shadow-sm">Best Seller</Badge>
+                <Badge variant={getBadgeVariant(tour.type)} className="text-xs font-bold px-3 py-1 rounded-full shadow-sm">{tour.type}</Badge>
             </div>
             <Image 
                 src={tourImage.imageUrl} 
@@ -32,7 +46,7 @@ export function TourCard({ tour }: TourCardProps) {
             />
             <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/60 to-transparent"></div>
             <div className="absolute bottom-4 right-4 text-white font-bold text-xl drop-shadow-md">
-                ${price} <span className="text-sm font-normal opacity-90">/ person</span>
+                ${tour.price} <span className="text-sm font-normal opacity-90">/ person</span>
             </div>
         </div>
         <div className="p-6 flex flex-col flex-grow">

@@ -1,3 +1,5 @@
+'use client';
+import { useState } from 'react';
 import type { Metadata } from 'next';
 import { tourPackages } from '@/lib/data';
 import { TourCard } from '@/components/TourCard';
@@ -5,17 +7,95 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuCheckboxItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { Clock, Map, CreditCard, Users, Route, MessageSquare, Calendar, ShieldCheck, User, ThumbsUp, Tag, ChevronDown } from 'lucide-react';
 import { getImage } from '@/lib/placeholder-images';
 import { WHATSAPP_LINK } from '@/lib/constants';
+import type { TourPackage } from '@/lib/types';
 
-export const metadata: Metadata = {
-  title: 'Our Tour Packages',
-  description: 'Explore our curated tour packages designed to give you the best experience of Sri Lanka. From cultural explorations to beach adventures, find your perfect trip.',
-};
 
 export default function ToursPage() {
-    const heroImage = getImage('contact-page-hero');
+  const heroImage = getImage('contact-page-hero');
+  const [filteredTours, setFilteredTours] = useState<TourPackage[]>(tourPackages);
+  const [activeFilters, setActiveFilters] = useState<Record<string, any>>({});
+  
+  const handleSort = (sortOption: string) => {
+    let sortedTours = [...filteredTours];
+    switch (sortOption) {
+      case 'price-low-high':
+        sortedTours.sort((a, b) => a.price - b.price);
+        break;
+      case 'price-high-low':
+        sortedTours.sort((a, b) => b.price - a.price);
+        break;
+      case 'duration-shortest':
+        sortedTours.sort((a, b) => a.durationInDays - b.durationInDays);
+        break;
+      default:
+        sortedTours = tourPackages; // Reset to default order
+    }
+    setFilteredTours(sortedTours);
+  };
+  
+  const allDestinations = [...new Set(tourPackages.flatMap(tour => tour.destinations))];
+  const allTypes = [...new Set(tourPackages.map(tour => tour.type))];
+
+  const handleFilterChange = (filterType: string, value: any) => {
+    const updatedFilters = { ...activeFilters };
+    if (filterType === 'duration' || filterType === 'budget') {
+      updatedFilters[filterType] = value;
+    } else {
+      if (updatedFilters[filterType]) {
+        if (updatedFilters[filterType].includes(value)) {
+          updatedFilters[filterType] = updatedFilters[filterType].filter((v: any) => v !== value);
+        } else {
+          updatedFilters[filterType].push(value);
+        }
+      } else {
+        updatedFilters[filterType] = [value];
+      }
+    }
+    
+    if (updatedFilters[filterType]?.length === 0) {
+      delete updatedFilters[filterType];
+    }
+    
+    setActiveFilters(updatedFilters);
+    applyFilters(updatedFilters);
+  };
+
+  const applyFilters = (filters: Record<string, any>) => {
+    let tours = [...tourPackages];
+
+    if (filters.duration) {
+      tours = tours.filter(tour => {
+        if(filters.duration === 'short') return tour.durationInDays <= 5;
+        if(filters.duration === 'medium') return tour.durationInDays > 5 && tour.durationInDays <= 10;
+        if(filters.duration === 'long') return tour.durationInDays > 10;
+        return true;
+      });
+    }
+
+    if (filters.destinations && filters.destinations.length > 0) {
+      tours = tours.filter(tour => tour.destinations.some(dest => filters.destinations.includes(dest)));
+    }
+
+    if (filters.budget) {
+      tours = tours.filter(tour => {
+        if (filters.budget === 'low') return tour.price < 500;
+        if (filters.budget === 'medium') return tour.price >= 500 && tour.price < 1000;
+        if (filters.budget === 'high') return tour.price >= 1000;
+        return true;
+      });
+    }
+
+    if (filters.type && filters.type.length > 0) {
+      tours = tours.filter(tour => filters.type.includes(tour.type));
+    }
+
+    setFilteredTours(tours);
+  };
+
   return (
     <>
       {/* Hero Section */}
@@ -44,26 +124,73 @@ export default function ToursPage() {
           </p>
           {/* Filter Chips */}
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4 max-w-4xl mx-auto">
-            <Button variant="outline" className="group flex items-center gap-2 px-5 py-3 rounded-full bg-white text-slate-800 hover:bg-primary hover:text-primary-foreground transition-all shadow-lg font-medium text-sm">
-              <Clock className="text-[20px] text-slate-400 group-hover:text-primary-foreground" />
-              Duration
-              <ChevronDown className="text-[18px]" />
-            </Button>
-            <Button variant="outline" className="group flex items-center gap-2 px-5 py-3 rounded-full bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all font-medium text-sm">
-              <Map className="text-[20px]" />
-              Destinations
-              <ChevronDown className="text-[18px]" />
-            </Button>
-            <Button variant="outline" className="group flex items-center gap-2 px-5 py-3 rounded-full bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all font-medium text-sm">
-              <CreditCard className="text-[20px]" />
-              Budget
-              <ChevronDown className="text-[18px]" />
-            </Button>
-            <Button variant="outline" className="group flex items-center gap-2 px-5 py-3 rounded-full bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all font-medium text-sm">
-              <Users className="text-[20px]" />
-              Type
-              <ChevronDown className="text-[18px]" />
-            </Button>
+             <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" className="group flex items-center gap-2 px-5 py-3 rounded-full bg-white text-slate-800 hover:bg-primary hover:text-primary-foreground transition-all shadow-lg font-medium text-sm">
+                  <Clock className="text-[20px] text-slate-400 group-hover:text-primary-foreground" />
+                  Duration
+                  <ChevronDown className="text-[18px]" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuLabel>Filter by Duration</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuCheckboxItem checked={activeFilters.duration === 'short'} onCheckedChange={() => handleFilterChange('duration', 'short')}>Short (1-5 days)</DropdownMenuCheckboxItem>
+                <DropdownMenuCheckboxItem checked={activeFilters.duration === 'medium'} onCheckedChange={() => handleFilterChange('duration', 'medium')}>Medium (6-10 days)</DropdownMenuCheckboxItem>
+                <DropdownMenuCheckboxItem checked={activeFilters.duration === 'long'} onCheckedChange={() => handleFilterChange('duration', 'long')}>Long (10+ days)</DropdownMenuCheckboxItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" className="group flex items-center gap-2 px-5 py-3 rounded-full bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all font-medium text-sm">
+                  <Map className="text-[20px]" />
+                  Destinations
+                  <ChevronDown className="text-[18px]" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuLabel>Filter by Destinations</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                {allDestinations.map(dest => (
+                  <DropdownMenuCheckboxItem key={dest} checked={activeFilters.destinations?.includes(dest)} onCheckedChange={() => handleFilterChange('destinations', dest)}>{dest}</DropdownMenuCheckboxItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" className="group flex items-center gap-2 px-5 py-3 rounded-full bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all font-medium text-sm">
+                  <CreditCard className="text-[20px]" />
+                  Budget
+                  <ChevronDown className="text-[18px]" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuLabel>Filter by Budget</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuCheckboxItem checked={activeFilters.budget === 'low'} onCheckedChange={() => handleFilterChange('budget', 'low')}>Under $500</DropdownMenuCheckboxItem>
+                <DropdownMenuCheckboxItem checked={activeFilters.budget === 'medium'} onCheckedChange={() => handleFilterChange('budget', 'medium')}>$500 - $1000</DropdownMenuCheckboxItem>
+                <DropdownMenuCheckboxItem checked={activeFilters.budget === 'high'} onCheckedChange={() => handleFilterChange('budget', 'high')}>Over $1000</DropdownMenuCheckboxItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" className="group flex items-center gap-2 px-5 py-3 rounded-full bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all font-medium text-sm">
+                  <Users className="text-[20px]" />
+                  Type
+                  <ChevronDown className="text-[18px]" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuLabel>Filter by Type</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                 {allTypes.map(type => (
+                  <DropdownMenuCheckboxItem key={type} checked={activeFilters.type?.includes(type)} onCheckedChange={() => handleFilterChange('type', type)}>{type}</DropdownMenuCheckboxItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
         </div>
       </section>
@@ -102,7 +229,7 @@ export default function ToursPage() {
             </div>
             <div className="flex items-center gap-2">
               <span className="text-sm font-medium text-slate-600">Sort by:</span>
-              <Select>
+              <Select onValueChange={handleSort}>
                 <SelectTrigger className="bg-white border-none text-sm font-semibold text-slate-900 rounded-lg focus:ring-2 focus:ring-primary/50 cursor-pointer shadow-sm py-2 px-3 w-auto">
                   <SelectValue placeholder="Recommended" />
                 </SelectTrigger>
@@ -117,136 +244,17 @@ export default function ToursPage() {
           </div>
           {/* Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {tourPackages.map((tour) => (
-              <TourCard key={tour.id} tour={tour} />
-            ))}
-             {/* Card 4 - Placeholder */}
-             <div className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-green-100 transition-all duration-300 border border-slate-100 flex flex-col h-full">
-                <div className="relative h-60 overflow-hidden">
-                    <div className="absolute top-4 left-4 z-10 flex gap-2">
-                        <span className="bg-white/90 backdrop-blur text-slate-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Luxury</span>
-                    </div>
-                    <Image src={getImage('southern-coast-adventure-tour').imageUrl} alt="Luxury boutique hotel pool overlooking the ocean in Galle" layout='fill' className="object-cover transform group-hover:scale-110 transition-transform duration-700" data-ai-hint={getImage('southern-coast-adventure-tour').imageHint}/>
-                    <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className="absolute bottom-4 right-4 text-white font-bold text-xl drop-shadow-md">
-                        $1200 <span className="text-sm font-normal opacity-90">/ couple</span>
-                    </div>
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                    <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-green-600 transition-colors">Southern Luxury Escape</h3>
-                    <div className="flex items-center gap-4 text-sm text-slate-500 mb-4">
-                        <div className="flex items-center gap-1">
-                            <Clock className="text-green-600 text-lg" />
-                            <span>7 Days</span>
-                        </div>
-                        <div className="flex items-center gap-1">
-                            <Map className="text-green-600 text-lg" />
-                            <span>3 Locations</span>
-                        </div>
-                    </div>
-                    <div className="mb-4">
-                        <div className="flex items-start gap-2 mb-2">
-                            <Route className="text-slate-400 text-lg mt-0.5" />
-                            <p className="text-sm font-medium text-slate-700">Galle <span className="text-slate-400 mx-1">→</span> Unawatuna <span className="text-slate-400 mx-1">→</span> Bentota</p>
-                        </div>
-                        <p className="text-sm text-slate-500 leading-relaxed line-clamp-2">
-                            Indulge in 5-star villas, private beach dinners, and spa treatments. The ultimate romantic getaway.
-                        </p>
-                    </div>
-                    <div className="mt-auto pt-4 border-t border-slate-100">
-                      <Button asChild className="w-full">
-                        <Link href={`${WHATSAPP_LINK}?text=${encodeURIComponent("Hello LankaHorizon, I am interested in the Southern Luxury Escape package.")}`} target="_blank">
-                          <MessageSquare className="mr-2 h-4 w-4" />Book via WhatsApp
-                        </Link>
-                      </Button>
-                    </div>
-                </div>
-            </div>
-            {/* Card 5 - Placeholder */}
-            <div className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-green-100 transition-all duration-300 border border-slate-100 flex flex-col h-full">
-                <div className="relative h-60 overflow-hidden">
-                    <div className="absolute top-4 left-4 z-10 flex gap-2">
-                        <span className="bg-white/90 backdrop-blur text-slate-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm">Adventure</span>
-                    </div>
-                    <Image src={getImage('sri-lanka-essentials-tour').imageUrl} alt="Hiker standing on top of a mountain peak in Ella" layout='fill' className="object-cover transform group-hover:scale-110 transition-transform duration-700" data-ai-hint={getImage('sri-lanka-essentials-tour').imageHint}/>
-                    <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className="absolute bottom-4 right-4 text-white font-bold text-xl drop-shadow-md">
-                        $290 <span className="text-sm font-normal opacity-90">/ person</span>
-                    </div>
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                    <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-green-600 transition-colors">Backpacker's Dream</h3>
-                    <div className="flex items-center gap-4 text-sm text-slate-500 mb-4">
-                        <div className="flex items-center gap-1">
-                            <Clock className="text-green-600 text-lg" />
-                            <span>6 Days</span>
-                        </div>
-                        <div className="flex items-center gap-1">
-                            <Map className="text-green-600 text-lg" />
-                            <span>4 Locations</span>
-                        </div>
-                    </div>
-                    <div className="mb-4">
-                        <div className="flex items-start gap-2 mb-2">
-                           <Route className="text-slate-400 text-lg mt-0.5" />
-                           <p className="text-sm font-medium text-slate-700">Ella <span className="text-slate-400 mx-1">→</span> Haputale <span className="text-slate-400 mx-1">→</span> Nuwara Eliya</p>
-                        </div>
-                        <p className="text-sm text-slate-500 leading-relaxed line-clamp-2">
-                           A budget-friendly tour for those who love hiking, waterfalls, and local street food culture.
-                        </p>
-                    </div>
-                     <div className="mt-auto pt-4 border-t border-slate-100">
-                      <Button asChild className="w-full">
-                        <Link href={`${WHATSAPP_LINK}?text=${encodeURIComponent("Hello LankaHorizon, I am interested in the Backpacker's Dream package.")}`} target="_blank">
-                          <MessageSquare className="mr-2 h-4 w-4" />Book via WhatsApp
-                        </Link>
-                      </Button>
-                    </div>
-                </div>
-            </div>
-             {/* Card 6 - Placeholder */}
-             <div className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-green-100 transition-all duration-300 border border-slate-100 flex flex-col h-full">
-                <div className="relative h-60 overflow-hidden">
-                    <div className="absolute top-4 left-4 z-10 flex gap-2">
-                        <span className="bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full shadow-sm">Family</span>
-                    </div>
-                    <Image src={getImage('testimonial-avatar-3').imageUrl} alt="Family playing on a sandy beach in Sri Lanka at sunset" layout='fill' className="object-cover transform group-hover:scale-110 transition-transform duration-700" data-ai-hint={getImage('testimonial-avatar-3').imageHint}/>
-
-                    <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/60 to-transparent"></div>
-                    <div className="absolute bottom-4 right-4 text-white font-bold text-xl drop-shadow-md">
-                        $850 <span className="text-sm font-normal opacity-90">/ family</span>
-                    </div>
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                    <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-green-600 transition-colors">Family Fun &amp; Sun</h3>
-                    <div className="flex items-center gap-4 text-sm text-slate-500 mb-4">
-                        <div className="flex items-center gap-1">
-                             <Clock className="text-green-600 text-lg" />
-                            <span>8 Days</span>
-                        </div>
-                        <div className="flex items-center gap-1">
-                           <Map className="text-green-600 text-lg" />
-                            <span>2 Locations</span>
-                        </div>
-                    </div>
-                    <div className="mb-4">
-                        <div className="flex items-start gap-2 mb-2">
-                            <Route className="text-slate-400 text-lg mt-0.5" />
-                            <p className="text-sm font-medium text-slate-700">Bentota <span className="text-slate-400 mx-1">→</span> Hikkaduwa</p>
-                        </div>
-                        <p className="text-sm text-slate-500 leading-relaxed line-clamp-2">
-                            Kid-friendly resorts with pools, turtle hatcheries, and gentle boat rides. Perfect for making memories.
-                        </p>
-                    </div>
-                    <div className="mt-auto pt-4 border-t border-slate-100">
-                        <Button asChild className="w-full">
-                          <Link href={`${WHATSAPP_LINK}?text=${encodeURIComponent("Hello LankaHorizon, I am interested in the Family Fun & Sun package.")}`} target="_blank">
-                             <MessageSquare className="mr-2 h-4 w-4" />Book via WhatsApp
-                          </Link>
-                        </Button>
-                    </div>
-                </div>
-            </div>
+            {filteredTours.length > 0 ? (
+                filteredTours.map((tour) => (
+                  <TourCard key={tour.id} tour={tour} />
+                ))
+            ) : (
+              <div className="col-span-full text-center py-16">
+                <h3 className="text-2xl font-bold text-slate-700">No Tours Found</h3>
+                <p className="text-slate-500 mt-2">Try adjusting your filters or check back later.</p>
+                <Button onClick={() => { setActiveFilters({}); setFilteredTours(tourPackages); }} className="mt-6">Clear Filters</Button>
+              </div>
+            )}
           </div>
           {/* Load More */}
           <div className="mt-16 flex justify-center">
