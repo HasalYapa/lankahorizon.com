@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { TravelExplore, Facebook, Instagram, Mail, Phone, MapPin, Twitter } from 'lucide-react';
+import { Globe, Facebook, Instagram, Mail, Phone, MapPin, Twitter } from 'lucide-react';
 import { COMPANY_EMAIL, COMPANY_LOCATION, COMPANY_NAME, NAV_ITEMS, WHATSAPP_LINK, WHATSAPP_NUMBER } from '@/lib/constants';
 
 const socialLinks = [
@@ -16,7 +16,7 @@ export function Footer() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                 <div className="col-span-1 md:col-span-1">
                     <Link href="/" className="flex items-center gap-2 mb-4">
-                      <TravelExplore className="h-8 w-8 text-primary" />
+                      <Globe className="h-8 w-8 text-primary" />
                       <h2 className="text-xl font-bold text-foreground dark:text-white">{COMPANY_NAME}</h2>
                     </Link>
                     <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Menu, TravelExplore, MessageSquare } from 'lucide-react';
+import { Menu, Globe, MessageSquare } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
@@ -20,7 +20,7 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center gap-3 cursor-pointer">
               <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/20 text-foreground dark:text-primary">
-                  <TravelExplore />
+                  <Globe />
               </div>
               <h1 className="text-xl sm:text-2xl font-black tracking-tight text-foreground dark:text-white">
                   {COMPANY_NAME}
@@ -61,7 +61,7 @@ export function Header() {
                 <SheetContent side="right">
                     <div className="flex flex-col gap-6 pt-6">
                         <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
-                            <TravelExplore className="h-6 w-6 text-primary" />
+                            <Globe className="h-6 w-6 text-primary" />
                             <span className="font-bold">{COMPANY_NAME}</span>
                         </Link>
                         <nav className="flex flex-col gap-4">
