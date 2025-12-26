@@ -1,102 +1,65 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
-import { Card, CardContent } from '@/components/ui/card';
-import { getImage } from '@/lib/placeholder-images';
+import './destination-styles.css';
+import { CustomItineraryForm } from '@/components/CustomItineraryForm';
 import { tourPackages } from '@/lib/data';
-import { Button } from '@/components/ui/button';
-import { ArrowRight, MapPin } from 'lucide-react';
-import { COMPANY_NAME } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Destinations',
-  description: `Explore the breathtaking destinations of Sri Lanka with ${COMPANY_NAME}. From ancient cities to pristine beaches, discover your next adventure.`,
+    title: 'Design Your Custom Itinerary',
+    description:
+        'Tell us what you love, and our local experts will craft the perfect itinerary just for you.',
 };
 
-// Create a unique list of destinations from tour packages
-const allDestinationsMap = new Map<string, { id: string, image: string, hint: string }>();
-
-tourPackages.forEach(tour => {
-  tour.destinations.forEach(dest => {
-    if (!allDestinationsMap.has(dest)) {
-      // Create a simplified ID for the image lookup
-      const imageId = dest.toLowerCase().replace(/ /g, '-') + '-destination';
-      const fallbackImageId = tour.image;
-      const image = getImage(imageId) ?? getImage(fallbackImageId);
-      
-      allDestinationsMap.set(dest, {
-        id: dest,
-        image: image.imageUrl,
-        hint: image.imageHint,
-      });
-    }
-  });
-});
-
-const uniqueDestinations = Array.from(allDestinationsMap.values());
+const allDestinations = [...new Set(tourPackages.flatMap(tour => tour.destinations))];
 
 
 export default function DestinationsPage() {
-  const heroImage = getImage('hero-background');
-
-  return (
-    <div className="bg-background">
-      <div className="relative h-64 md:h-80 w-full">
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-center items-center text-center text-white">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Our Destinations</h1>
-          <p className="mt-4 max-w-2xl text-lg text-neutral-200">
-            Discover the vibrant culture, stunning landscapes, and hidden gems of Sri Lanka.
-          </p>
-        </div>
-      </div>
-
-      <div className="container mx-auto px-6 py-16 lg:py-24">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tight">Explore the Island</h2>
-          <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">
-            Each destination offers a unique window into the soul of Sri Lanka.
-          </p>
-        </div>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {uniqueDestinations.map((dest) => (
-            <Card key={dest.id} className="group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-              <CardContent className="p-0">
-                <div className="relative h-64">
-                  <Image
-                    src={dest.image}
-                    alt={`Image of ${dest.id}`}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
-                    data-ai-hint={dest.hint}
-                  />
-                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+    return (
+        <div className="destinations-page-container">
+            <div className="flex flex-col lg:flex-row min-h-[calc(100vh-80px)]">
+                {/* Left Side: Visual (Sticky on Desktop) */}
+                <div className="w-full lg:w-5/12 xl:w-1/2 lg:h-[calc(100vh-80px)] lg:sticky lg:top-[80px] relative bg-gray-200 overflow-hidden group">
+                    <div
+                        className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                        style={{
+                            backgroundImage:
+                                "url('https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1966&auto=format&fit=crop')",
+                        }}
+                    ></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-background-dark/80 via-transparent to-transparent lg:bg-black/20"></div>
+                    <div className="absolute bottom-0 left-0 p-8 lg:p-12 text-white">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider border border-white/30">
+                                Trusted by 5000+ Travelers
+                            </span>
+                        </div>
+                        <h1 className="text-4xl lg:text-5xl font-black leading-tight tracking-tight mb-4">
+                            Experience the <span className="text-dest-primary">Untouched</span> Beauty of Ceylon.
+                        </h1>
+                        <p className="text-lg text-gray-200 max-w-md hidden lg:block">
+                            From the golden beaches of Mirissa to the misty hills of Ella, let us guide you through
+                            paradise.
+                        </p>
+                    </div>
                 </div>
-                <div className="p-5 bg-card">
-                  <div className="flex items-center gap-2 mb-2">
-                    <MapPin className="w-5 h-5 text-primary" />
-                    <h3 className="text-xl font-bold tracking-tight text-foreground">{dest.id}</h3>
-                  </div>
-                  <Button asChild variant="link" className="p-0 h-auto font-semibold">
-                    <Link href="/tours">
-                      View Tours <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
+
+                {/* Right Side: Form (Scrollable) */}
+                <div className="w-full lg:w-7/12 xl:w-1/2 bg-background-light dark:bg-background-dark flex flex-col items-center p-4 py-12 sm:p-12 lg:p-16 xl:p-24 overflow-y-auto">
+                    <div className="w-full max-w-[600px] flex flex-col gap-8">
+                        {/* Header */}
+                        <div className="flex flex-col gap-2">
+                            <h2 className="text-3xl sm:text-4xl font-bold text-text-light dark:text-white tracking-tight">
+                                Design Your Itinerary
+                            </h2>
+                            <p className="text-gray-500 dark:text-gray-400 text-base sm:text-lg">
+                                Tell us what you love, and our local experts will craft the perfect itinerary just for
+                                you.
+                            </p>
+                        </div>
+                        {/* Form */}
+                        <CustomItineraryForm destinations={allDestinations} />
+                    </div>
                 </div>
-              </CardContent>
-            </Card>
-          ))}
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
