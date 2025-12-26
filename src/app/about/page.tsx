@@ -77,13 +77,17 @@ export default function AboutPage() {
             </button>
           </div>
           <div className="flex-1 grid grid-cols-2 gap-4 w-full h-full relative">
-            <div className="col-span-2 md:col-span-1 md:translate-y-12">
+            <div className="col-span-1">
               <div className="w-full h-64 md:h-80 rounded-xl bg-cover bg-center shadow-lg transform hover:rotate-1 transition duration-500" data-alt="traditional sri lankan stilt fishermen sunset" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1588264283547-41842878c775?q=80&w=2574&auto=format&fit=crop")'}}>
               </div>
             </div>
-            <div className="col-span-2 md:col-span-1">
+            <div className="col-span-1">
               <div className="w-full h-64 md:h-80 rounded-xl bg-cover bg-center shadow-lg transform hover:-rotate-1 transition duration-500" data-alt="sigiriya rock fortress ancient ruins jungle" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1595130761245-7a6f29633633?q=80&w=2574&auto=format&fit=crop")'}}>
               </div>
+            </div>
+             <div className="col-span-2">
+                <div className="w-full h-64 rounded-xl bg-cover bg-center shadow-lg transform hover:scale-105 transition duration-500" data-alt="serene beach in sri lanka" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1531201890865-fb64780d16e9?q=80&w=2592&auto=format&fit=crop")'}}>
+                </div>
             </div>
             <div className="absolute -z-10 -bottom-10 -right-10 w-40 h-40 bg-primary/20 rounded-full blur-3xl"></div>
           </div>
