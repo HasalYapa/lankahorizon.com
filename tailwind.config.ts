@@ -14,11 +14,13 @@ export default {
       },
       fontFamily: {
         sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-        display: ['"Playfair Display"', 'serif'],
+        display: ['"Playfair Display"', 'serif', '"Inter"', 'sans-serif'],
         body: ['"Plus Jakarta Sans"', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
+        'background-light': 'hsl(var(--background-light))',
+        'background-dark': 'hsl(var(--background-dark))',
         foreground: 'hsl(var(--foreground))',
         card: {
           DEFAULT: 'hsl(var(--card))',
