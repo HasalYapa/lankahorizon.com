@@ -20,10 +20,10 @@ export const metadata: Metadata = {
       siteName: COMPANY_NAME,
       images: [
         {
-          url: 'https://picsum.photos/seed/og-image/1200/630',
+          url: 'https://images.unsplash.com/photo-1531201890865-fb64780d16e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlib=rb-4.1.0&q=80&w=1200',
           width: 1200,
           height: 630,
-          alt: 'A beautiful landscape in Sri Lanka.',
+          alt: 'A stunning aerial view of Sri Lanka tropical beach with palm trees and blue ocean.',
         },
       ],
       locale: 'en_US',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `${COMPANY_NAME} | Explore Sri Lanka`,
     description: 'Your dream Sri Lankan adventure starts here. We offer customized tours, trusted local guides, and the best prices for an unforgettable experience.',
-    images: ['https://picsum.photos/seed/og-image/1200/630'],
+    images: ['https://images.unsplash.com/photo-1531201890865-fb64780d16e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlib=rb-4.1.0&q=80&w=1200'],
   },
 };
 
@@ -43,13 +43,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth light">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </head>
-      <body className={cn('min-h-screen bg-background font-body antialiased flex flex-col')}>
+      <body className={cn('min-h-screen bg-background text-foreground font-display antialiased flex flex-col overflow-x-hidden')}>
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />

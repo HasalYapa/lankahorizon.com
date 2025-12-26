@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Menu, Palmtree } from 'lucide-react';
+import { Menu, TravelExplore, MessageSquare } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
@@ -15,35 +15,45 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 max-w-7xl items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <Palmtree className="h-6 w-6 text-primary" />
-          <span className="font-bold text-lg">{COMPANY_NAME}</span>
-        </Link>
-        
-        <nav className="hidden md:flex gap-6 items-center">
-          {NAV_ITEMS.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={cn(
-                'text-sm font-medium transition-colors hover:text-primary',
-                pathname === item.href ? 'text-primary' : 'text-muted-foreground'
-              )}
-            >
-              {item.title}
+    <header className="fixed top-0 z-50 w-full transition-all duration-300 bg-white/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20">
+            <Link href="/" className="flex items-center gap-3 cursor-pointer">
+              <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/20 text-foreground dark:text-primary">
+                  <TravelExplore />
+              </div>
+              <h1 className="text-xl sm:text-2xl font-black tracking-tight text-foreground dark:text-white">
+                  {COMPANY_NAME}
+              </h1>
             </Link>
-          ))}
-        </nav>
+            
+            <nav className="hidden md:flex items-center gap-8">
+              {NAV_ITEMS.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={cn(
+                    'text-sm font-semibold text-slate-600 hover:text-foreground dark:text-slate-300 dark:hover:text-primary transition-colors',
+                    pathname === item.href && 'text-primary dark:text-primary'
+                  )}
+                >
+                  {item.title}
+                </Link>
+              ))}
+            </nav>
 
-        <div className="flex items-center gap-2">
-            <Button asChild className="hidden md:flex" variant="outline" size="sm">
-                <Link href="/custom-itinerary">Plan Your Trip</Link>
-            </Button>
+            <div className="hidden md:flex">
+                <Button asChild className="group flex items-center justify-center h-12 px-6 bg-primary hover:bg-green-400 text-foreground text-sm font-bold rounded-full transition-all duration-300 shadow-[0_4px_14px_0_rgba(19,236,37,0.39)] hover:shadow-[0_6px_20px_rgba(19,236,37,0.23)] hover:-translate-y-0.5">
+                    <Link href="/custom-itinerary">
+                        <span className="mr-2">Plan Trip</span>
+                        <MessageSquare className="w-5 h-5" />
+                    </Link>
+                </Button>
+            </div>
+            
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
                 <SheetTrigger asChild className="md:hidden">
-                    <Button variant="ghost" size="icon">
+                    <Button variant="ghost" size="icon" className="p-2 rounded-lg text-slate-600 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800">
                         <Menu className="h-6 w-6" />
                         <span className="sr-only">Toggle Menu</span>
                     </Button>
@@ -51,7 +61,7 @@ export function Header() {
                 <SheetContent side="right">
                     <div className="flex flex-col gap-6 pt-6">
                         <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
-                            <Palmtree className="h-6 w-6 text-primary" />
+                            <TravelExplore className="h-6 w-6 text-primary" />
                             <span className="font-bold">{COMPANY_NAME}</span>
                         </Link>
                         <nav className="flex flex-col gap-4">

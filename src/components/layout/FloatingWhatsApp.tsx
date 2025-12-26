@@ -1,24 +1,24 @@
 import Link from 'next/link';
 import { WHATSAPP_LINK } from '@/lib/constants';
-
-const WhatsAppIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-    </svg>
-)
+import { MessageSquare } from 'lucide-react';
 
 export function FloatingWhatsApp() {
   const message = encodeURIComponent("Hello LankaHorizon, I'd like to plan a trip to Sri Lanka!");
 
   return (
-    <Link
-      href={`${WHATSAPP_LINK}?text=${message}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Chat on WhatsApp"
-      className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-lg hover:bg-[#128C7E] transition-colors duration-300 transform hover:scale-110"
-    >
-      <WhatsAppIcon />
-    </Link>
+    <div className="fixed bottom-6 right-6 z-50">
+        <Link
+            href={`${WHATSAPP_LINK}?text=${message}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center justify-center gap-2 h-14 pl-4 pr-6 bg-primary text-ocean-blue rounded-full shadow-2xl hover:-translate-y-1 transition-all duration-300"
+        >
+            <MessageSquare className="w-7 h-7" />
+            <div className="flex flex-col items-start text-xs font-bold leading-tight">
+                <span>Chat on</span>
+                <span className="text-sm">WhatsApp</span>
+            </div>
+        </Link>
+    </div>
   );
 }
