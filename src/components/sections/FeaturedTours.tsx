@@ -8,7 +8,7 @@ export function FeaturedTours() {
   const featured = tourPackages.slice(0, 3);
 
   return (
-    <section className="py-16 lg:py-24 bg-secondary/50">
+    <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Our Popular Tours</h2>
