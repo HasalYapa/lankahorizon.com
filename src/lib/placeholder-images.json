@@ -2,8 +2,8 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A beautiful beach in Sri Lanka with palm trees and clear blue water.",
-      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A stunning aerial view of Sri Lanka tropical beach with palm trees and blue ocean.",
+      "imageUrl": "https://images.unsplash.com/photo-1531201890865-fb64780d16e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka beach",
       "data-ai-placeholder": "true"
     },
@@ -94,7 +94,7 @@
     {
       "id": "yala-safari",
       "description": "Elephants gathering at a national park in Sri Lanka",
-      "imageUrl": "https://images.unsplash.com/photo-1663429975768-e54b67ce9f5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZWxlcGhhbnQlMjBzYWZhcml8ZW58MHx8fHwxNzY2NzUzNTc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "elephant safari",
       "data-ai-placeholder": "true"
     },
