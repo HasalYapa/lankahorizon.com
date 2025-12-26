@@ -23,7 +23,7 @@ export function Cta() {
             <div className="relative z-20 px-8 py-16 md:py-24 text-center">
                 <h2 className="text-3xl md:text-5xl font-black text-white mb-6 tracking-tight max-w-2xl mx-auto">Ready for your Sri Lankan Adventure?</h2>
                 <p className="text-white/90 text-lg md:text-xl mb-10 max-w-xl mx-auto">Contact us today to plan your perfect trip. We are available 24/7 on WhatsApp to assist you.</p>
-                <Button size="lg" asChild className="h-14 px-8 text-lg font-bold rounded-full transition-all duration-300 shadow-[0_4px_14px_0_rgba(19,236,37,0.39)] hover:shadow-[0_6px_20px_rgba(19,236,37,0.23)] hover:-translate-y-1">
+                <Button size="lg" asChild className="h-14 px-8 bg-primary hover:bg-green-400 text-ocean-blue text-lg font-bold rounded-full transition-all duration-300 shadow-[0_4px_14px_0_rgba(19,236,37,0.39)] hover:shadow-[0_6px_20px_rgba(19,236,37,0.23)] hover:-translate-y-1">
                     <Link href={`${WHATSAPP_LINK}?text=${message}`} target="_blank" rel="noopener noreferrer">
                         <MessageSquare className="mr-3" />
                         Start Chat on WhatsApp

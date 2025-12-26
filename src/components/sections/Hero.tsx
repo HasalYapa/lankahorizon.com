@@ -16,7 +16,7 @@ export function Hero() {
   return (
     <section className="relative pt-20 min-h-screen flex flex-col justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full z-0">
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-background dark:to-background-dark z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-background-light dark:to-background-dark z-10"></div>
             <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -28,7 +28,7 @@ export function Hero() {
         </div>
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 w-full">
             <div className="flex flex-col md:flex-row items-center gap-12">
-                <div className="w-full md:w-1/2 flex flex-col items-start text-left gap-6">
+                <div className="w-full md:w-1/2 flex flex-col items-start text-left gap-6 animate-fade-in-up">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white text-xs font-bold uppercase tracking-wider">
                         <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
                         #1 Travel Agency in Sri Lanka
@@ -40,7 +40,7 @@ export function Hero() {
                         Experience the pearl of the Indian Ocean. Customized tours, trusted local guides, and the best prices guaranteed.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
-                        <Button size="lg" asChild className="h-14 px-8 text-base font-bold rounded-full transition-all duration-300 shadow-[0_4px_14px_0_rgba(19,236,37,0.39)] hover:shadow-[0_6px_20px_rgba(19,236,37,0.23)] hover:-translate-y-1 w-full sm:w-auto">
+                        <Button size="lg" asChild className="h-14 px-8 text-base font-bold rounded-full transition-all duration-300 shadow-[0_4px_14px_0_rgba(19,236,37,0.39)] hover:shadow-[0_6px_20px_rgba(19,236,37,0.23)] hover:-translate-y-1 w-full sm:w-auto text-ocean-blue">
                             <Link href={`${WHATSAPP_LINK}?text=${message}`} target="_blank" rel="noopener noreferrer">
                                 <MessageSquare className="mr-3" />
                                 Plan on WhatsApp
@@ -79,7 +79,7 @@ export function Hero() {
                         />
                         <div className="absolute bottom-4 left-4 right-4 p-4 bg-white/90 backdrop-blur-md rounded-2xl shadow-lg">
                             <div className="flex items-center justify-between mb-1">
-                                <span className="text-xs font-bold text-foreground uppercase tracking-wider">Must Visit</span>
+                                <span className="text-xs font-bold text-ocean-blue uppercase tracking-wider">Must Visit</span>
                                 <span className="text-xs font-bold text-primary flex items-center gap-1">
                                     4.9 <Star className="w-3 h-3 fill-current" />
                                 </span>

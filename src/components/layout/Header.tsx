@@ -19,10 +19,10 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center gap-3 cursor-pointer">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/20 text-foreground dark:text-primary">
+              <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/20 text-ocean-blue dark:text-primary">
                   <Globe />
               </div>
-              <h1 className="text-xl sm:text-2xl font-black tracking-tight text-foreground dark:text-white">
+              <h1 className="text-xl sm:text-2xl font-black tracking-tight text-ocean-blue dark:text-white">
                   {COMPANY_NAME}
               </h1>
             </Link>
@@ -33,7 +33,7 @@ export function Header() {
                   key={item.href}
                   href={item.href}
                   className={cn(
-                    'text-sm font-semibold text-slate-600 hover:text-foreground dark:text-slate-300 dark:hover:text-primary transition-colors',
+                    'text-sm font-semibold text-slate-600 hover:text-ocean-blue dark:text-slate-300 dark:hover:text-primary transition-colors',
                     pathname === item.href && 'text-primary dark:text-primary'
                   )}
                 >
@@ -43,7 +43,7 @@ export function Header() {
             </nav>
 
             <div className="hidden md:flex">
-                <Button asChild className="group flex items-center justify-center h-12 px-6 bg-primary hover:bg-green-400 text-foreground text-sm font-bold rounded-full transition-all duration-300 shadow-[0_4px_14px_0_rgba(19,236,37,0.39)] hover:shadow-[0_6px_20px_rgba(19,236,37,0.23)] hover:-translate-y-0.5">
+                <Button asChild className="group flex items-center justify-center h-12 px-6 bg-primary hover:bg-green-400 text-ocean-blue text-sm font-bold rounded-full transition-all duration-300 shadow-[0_4px_14px_0_rgba(19,236,37,0.39)] hover:shadow-[0_6px_20px_rgba(19,236,37,0.23)] hover:-translate-y-0.5">
                     <Link href="/custom-itinerary">
                         <span className="mr-2">Plan Trip</span>
                         <MessageSquare className="w-5 h-5" />

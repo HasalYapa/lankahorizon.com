@@ -11,8 +11,8 @@ export default {
     extend: {
       fontFamily: {
         display: ['Inter', 'sans-serif'],
-        body: ['Inter', 'sans-serif'], // Keep for consistency
-        headline: ['Inter', 'sans-serif'], // Keep for consistency
+        body: ['Inter', 'sans-serif'],
+        headline: ['Inter', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
@@ -51,10 +51,11 @@ export default {
         ring: 'hsl(var(--ring))',
         
         // Custom colors from new design
-        'ocean-blue': '#0e4c5b',
-        'ocean-light': '#e0f2f5',
-        'background-light': '#f6f8f6',
-        'background-dark': '#102212',
+        'primary': "#13ec25",
+        "ocean-blue": "#0e4c5b",
+        "ocean-light": "#e0f2f5",
+        "background-light": "#f6f8f6",
+        "background-dark": "#102212",
       },
       borderRadius: {
         DEFAULT: "1rem",

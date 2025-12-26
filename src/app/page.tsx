@@ -1,8 +1,9 @@
-import { generateDestinationDescription } from '@/ai/flows/generate-destination-descriptions';
 import { Hero } from '@/components/sections/Hero';
 import { DestinationHighlights } from '@/components/sections/DestinationHighlights';
 import { Features } from '@/components/sections/Features';
 import { Cta } from '@/components/sections/Cta';
+import { Testimonials } from '@/components/sections/Testimonials';
+import { FaqSection } from '@/components/sections/FaqSection';
 
 const destinations = [
   { name: 'Sigiriya', imageId: 'sigiriya-destination', shortDesc: 'Ancient Rock Fortress' },
@@ -12,7 +13,7 @@ const destinations = [
 ];
 
 export default async function Home() {
-  // Description generation can be added back if needed, but the new design doesn't use it.
+
   const destinationData = destinations.map(dest => ({
     ...dest,
     description: `Explore the wonders of ${dest.name}, a must-visit location in Sri Lanka offering unique cultural and natural experiences.`,
@@ -23,6 +24,7 @@ export default async function Home() {
       <Hero />
       <Features />
       <DestinationHighlights destinations={destinationData} />
+      <Testimonials />
       <Cta />
     </div>
   );

@@ -13,7 +13,7 @@ export function FloatingWhatsApp() {
             rel="noopener noreferrer"
             className="group flex items-center justify-center gap-2 h-14 pl-4 pr-6 bg-primary text-ocean-blue rounded-full shadow-2xl hover:-translate-y-1 transition-all duration-300"
         >
-            <MessageSquare className="w-7 h-7" />
+            <MessageSquare className="w-8 h-8" />
             <div className="flex flex-col items-start text-xs font-bold leading-tight">
                 <span>Chat on</span>
                 <span className="text-sm">WhatsApp</span>

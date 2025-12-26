@@ -37,22 +37,22 @@ export const tourPackages: TourPackage[] = [
 
 export const testimonials: Testimonial[] = [
   {
-    name: 'John & Jane Smith',
+    name: 'Sarah Jenkins',
     location: 'United Kingdom',
-    avatar: 'testimonial-avatar-1',
-    message: 'LankaHorizon made our Sri Lankan dream a reality. Every detail was perfect, from the guides to the hotels. Unforgettable!',
-  },
-  {
-    name: 'Anika Schmidt',
-    location: 'Germany',
     avatar: 'testimonial-avatar-2',
-    message: 'As a solo traveler, I felt completely safe and well looked after. The custom itinerary was exactly what I wanted. Thank you!',
+    message: 'Our 10-day tour with LankaHorizon was absolutely magical! The guide was incredibly knowledgeable and friendly. Every detail was taken care of perfectly.',
   },
   {
-    name: 'The Chen Family',
+    name: 'Michael Chen',
     location: 'Singapore',
+    avatar: 'testimonial-avatar-1',
+    message: 'Best travel agency in Sri Lanka hands down. We saw leopards in Yala and the train ride to Ella was breathtaking. Highly recommend their customized packages.',
+  },
+  {
+    name: 'Emma & Tom',
+    location: 'Australia',
     avatar: 'testimonial-avatar-3',
-    message: 'Our family had an amazing time. The kids loved the wildlife safari, and the cultural sites were fascinating. Highly recommended.',
+    message: 'From the airport pickup to the drop-off, everything was seamless. The hotels were fantastic and within our budget. Thank you for an amazing honeymoon!',
   },
 ];
 

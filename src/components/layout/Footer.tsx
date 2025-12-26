@@ -17,7 +17,7 @@ export function Footer() {
                 <div className="col-span-1 md:col-span-1">
                     <Link href="/" className="flex items-center gap-2 mb-4">
                       <Globe className="h-8 w-8 text-primary" />
-                      <h2 className="text-xl font-bold text-foreground dark:text-white">{COMPANY_NAME}</h2>
+                      <h2 className="text-xl font-bold text-ocean-blue dark:text-white">{COMPANY_NAME}</h2>
                     </Link>
                     <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">
                         Your trusted partner for exploring the wonders of Sri Lanka. We create memories that last a lifetime.
@@ -33,7 +33,7 @@ export function Footer() {
                 </div>
 
                 <div>
-                    <h3 className="text-sm font-bold text-foreground dark:text-white uppercase tracking-wider mb-4">Quick Links</h3>
+                    <h3 className="text-sm font-bold text-ocean-blue dark:text-white uppercase tracking-wider mb-4">Quick Links</h3>
                     <ul className="space-y-3">
                         {NAV_ITEMS.map(item => (
                              <li key={item.href}><a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href={item.href}>{item.title}</a></li>
@@ -42,7 +42,7 @@ export function Footer() {
                 </div>
                 
                 <div>
-                    <h3 className="text-sm font-bold text-foreground dark:text-white uppercase tracking-wider mb-4">Top Tours</h3>
+                    <h3 className="text-sm font-bold text-ocean-blue dark:text-white uppercase tracking-wider mb-4">Top Tours</h3>
                     <ul className="space-y-3">
                         <li><a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Hill Country Explorer</a></li>
                         <li><a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary text-sm" href="/tours">Coastal Paradise</a></li>
@@ -52,7 +52,7 @@ export function Footer() {
                 </div>
 
                 <div>
-                    <h3 className="text-sm font-bold text-foreground dark:text-white uppercase tracking-wider mb-4">Contact</h3>
+                    <h3 className="text-sm font-bold text-ocean-blue dark:text-white uppercase tracking-wider mb-4">Contact</h3>
                     <ul className="space-y-3">
                         <li className="flex items-start gap-3 text-slate-500 dark:text-slate-400 text-sm">
                             <MapPin className="text-primary w-4 h-4 mt-0.5" />
