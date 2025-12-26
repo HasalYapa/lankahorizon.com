@@ -13,8 +13,8 @@ export function Cta() {
     <section className="relative w-full rounded-3xl overflow-hidden shadow-2xl my-24 container mx-auto">
         <div className="absolute inset-0 z-0">
             <Image
-                alt="Lush green tropical forest with a chameleon representing Sri Lankan nature"
-                src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=2670&auto=format&fit=crop"
+                alt="A lush, green tropical forest in Sri Lanka with a river flowing through it."
+                src="https://images.unsplash.com/photo-1584603327369-d41a627d5fcf?q=80&w=2670&auto=format&fit=crop"
                 fill
                 className="object-cover object-center transform hover:scale-105 transition-transform duration-[20s]"
             />
