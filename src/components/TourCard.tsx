@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Clock, MapPin, Send } from 'lucide-react';
+import { Clock, MapPin, Send, Route, MessageSquare } from 'lucide-react';
 import type { TourPackage } from '@/lib/types';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -15,35 +15,56 @@ interface TourCardProps {
 export function TourCard({ tour }: TourCardProps) {
   const tourImage = getImage(tour.image);
   const message = encodeURIComponent(`Hello LankaHorizon, I want to book the "${tour.name}" package.`);
+  const price = Math.floor(Math.random() * (600 - 300 + 1)) + 300;
 
   return (
-    <Card className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-      <CardHeader className="p-0 relative">
-        <Image
-          src={tourImage.imageUrl}
-          alt={tour.name}
-          width={600}
-          height={400}
-          className="object-cover w-full h-auto aspect-[3/2]"
-          data-ai-hint={tourImage.imageHint}
-        />
-        <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground">{tour.duration}</Badge>
-      </CardHeader>
-      <CardContent className="p-6 flex-grow">
-        <h3 className="text-xl font-bold mb-2">{tour.name}</h3>
-        <p className="text-sm text-muted-foreground mb-4 line-clamp-2">{tour.description}</p>
-        <div className="flex items-center text-sm text-muted-foreground gap-2">
-          <MapPin className="w-4 h-4 shrink-0" />
-          <span className="truncate">{tour.destinations.join(', ')}</span>
+    <div className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-green-100 transition-all duration-300 border border-slate-100 flex flex-col h-full">
+        <div className="relative h-60 overflow-hidden">
+            <div className="absolute top-4 left-4 z-10 flex gap-2">
+                <Badge className="bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full shadow-sm">Best Seller</Badge>
+            </div>
+            <Image 
+                src={tourImage.imageUrl} 
+                alt={tour.name} 
+                layout='fill'
+                className="object-cover transform group-hover:scale-110 transition-transform duration-700"
+                data-ai-hint={tourImage.imageHint}
+            />
+            <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/60 to-transparent"></div>
+            <div className="absolute bottom-4 right-4 text-white font-bold text-xl drop-shadow-md">
+                ${price} <span className="text-sm font-normal opacity-90">/ person</span>
+            </div>
         </div>
-      </CardContent>
-      <CardFooter className="p-6 pt-0">
-        <Button asChild className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
-          <Link href={`${WHATSAPP_LINK}?text=${message}`} target="_blank" rel="noopener noreferrer">
-            <Send className="w-4 h-4 mr-2" /> Book via WhatsApp
-          </Link>
-        </Button>
-      </CardFooter>
-    </Card>
+        <div className="p-6 flex flex-col flex-grow">
+            <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-green-600 transition-colors">{tour.name}</h3>
+            <div className="flex items-center gap-4 text-sm text-slate-500 mb-4">
+                <div className="flex items-center gap-1">
+                    <Clock className="text-green-600 text-lg" />
+                    <span>{tour.duration}</span>
+                </div>
+                <div className="flex items-center gap-1">
+                    <MapPin className="text-green-600 text-lg" />
+                    <span>{tour.destinations.length} Locations</span>
+                </div>
+            </div>
+            <div className="mb-4">
+                <div className="flex items-start gap-2 mb-2">
+                    <Route className="text-slate-400 text-lg mt-0.5" />
+                    <p className="text-sm font-medium text-slate-700">{tour.destinations.join(' → ')}</p>
+                </div>
+                <p className="text-sm text-slate-500 leading-relaxed line-clamp-2">
+                    {tour.description}
+                </p>
+            </div>
+            <div className="mt-auto pt-4 border-t border-slate-100">
+                <Button asChild className="flex w-full items-center justify-center gap-2 rounded-full h-12 bg-slate-900 text-white text-sm font-bold hover:bg-primary hover:text-primary-foreground transition-colors group/btn">
+                    <Link href={`${WHATSAPP_LINK}?text=${message}`} target="_blank">
+                        <MessageSquare className="text-lg" />
+                        Book via WhatsApp
+                    </Link>
+                </Button>
+            </div>
+        </div>
+    </div>
   );
 }
