@@ -21,7 +21,7 @@ export default async function Home() {
   }));
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col overflow-x-hidden">
       <Hero />
       <Features />
       <DestinationHighlights destinations={destinationData} />
