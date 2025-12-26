@@ -116,8 +116,7 @@ Looking forward to hearing from you!
                 <label className="flex flex-col flex-1 gap-2">
                     <span className="text-sm font-medium text-text-light dark:text-gray-300">WhatsApp Number</span>
                     <div className="relative">
-                        <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 material-symbols-outlined text-[20px]">call</span>
-                        <Input {...form.register('whatsapp')} placeholder="e.g., +94 77 123 4567" type="tel" className="pl-12 pr-4" />
+                        <Input {...form.register('whatsapp')} placeholder="e.g., +94 77 123 4567" type="tel" />
                     </div>
                      {form.formState.errors.whatsapp && <p className="text-red-500 text-xs mt-1">{form.formState.errors.whatsapp.message}</p>}
                 </label>
