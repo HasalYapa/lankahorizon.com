@@ -1,7 +1,11 @@
+
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import { MapPin, ArrowRight, Train, Droplet, Trees } from 'lucide-react';
 import { getImage } from '@/lib/placeholder-images';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import { Card, CardContent } from '@/components/ui/card';
 
 interface Destination {
   name: string;
@@ -35,31 +39,57 @@ export function DestinationHighlights({ destinations }: DestinationHighlightsPro
                     View all places <ArrowRight className="w-4 h-4" />
                 </Link>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {destinations.map((dest) => {
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              className="w-full"
+            >
+              <CarouselContent>
+                {destinations.map((dest, index) => {
                     const image = getImage(dest.imageId);
                     const Icon = iconMap[dest.shortDesc] || MapPin;
                     return (
-                        <div key={dest.name} className="group relative h-80 rounded-2xl overflow-hidden cursor-pointer">
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
-                            <Image
+                      <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                        <div className="p-1">
+                          <Card className="rounded-2xl overflow-hidden group border-0 shadow-none">
+                            <CardContent className="relative flex aspect-[4/5] items-center justify-center p-0">
+                              <Image
                                 src={image.imageUrl}
                                 alt={dest.name}
                                 fill
-                                className="object-cover transform group-hover:scale-110 transition-transform duration-700"
+                                className="object-cover transition-transform duration-500 group-hover:scale-110"
                                 data-ai-hint={image.imageHint}
                                 data-ai-placeholder="true"
-                            />
-                            <div className="absolute bottom-0 left-0 p-6 z-20">
-                                <h3 className="text-xl font-bold text-white mb-1">{dest.name}</h3>
-                                <p className="text-white/80 text-sm flex items-center gap-1">
-                                    <Icon className="w-4 h-4" /> {dest.shortDesc}
+                              />
+                              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                              <div className="absolute inset-0 flex flex-col justify-end p-6 text-white transition-all duration-300 transform-gpu translate-y-4 group-hover:translate-y-0">
+                                <div className="flex items-center gap-2">
+                                  <div className="bg-primary/20 backdrop-blur-sm p-2 rounded-full border border-white/20">
+                                    <Icon className="w-5 h-5 text-primary" />
+                                  </div>
+                                  <div>
+                                    <h3 className="text-xl font-bold">{dest.name}</h3>
+                                    <p className="text-sm text-white/90">{dest.shortDesc}</p>
+                                  </div>
+                                </div>
+                                <p className="mt-4 text-sm opacity-0 transition-opacity duration-300 group-hover:opacity-100 max-w-xs">
+                                  {dest.description.split('. ')[0]}.
                                 </p>
-                            </div>
+                              </div>
+                            </CardContent>
+                          </Card>
                         </div>
-                    );
+                      </CarouselItem>
+                    )
                 })}
-            </div>
+              </CarouselContent>
+              <div className='hidden md:block'>
+                <CarouselPrevious className="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 " />
+                <CarouselNext className="absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2" />
+              </div>
+            </Carousel>
         </div>
     </section>
   );
