@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useForm, Controller } from 'react-hook-form';
@@ -116,7 +117,7 @@ Looking forward to hearing from you!
                     <span className="text-sm font-medium text-text-light dark:text-gray-300">WhatsApp Number</span>
                     <div className="relative">
                         <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 material-symbols-outlined text-[20px]">call</span>
-                        <Input {...form.register('whatsapp')} placeholder="+44 7911 123456" type="tel" className="pl-12 pr-4" />
+                        <Input {...form.register('whatsapp')} placeholder="e.g., +94 77 123 4567" type="tel" className="pl-12 pr-4" />
                     </div>
                      {form.formState.errors.whatsapp && <p className="text-red-500 text-xs mt-1">{form.formState.errors.whatsapp.message}</p>}
                 </label>
@@ -234,3 +235,5 @@ Looking forward to hearing from you!
         </form>
     );
 }
+
+    
