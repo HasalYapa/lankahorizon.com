@@ -107,9 +107,9 @@
     },
     {
       "id": "cta-background",
-      "description": "Iconic blue train crossing a bridge in the Sri Lankan highlands, surrounded by lush green tea plantations.",
-      "imageUrl": "https://images.unsplash.com/photo-1708174934550-5e95c7bf02d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxN3x8c3JpJTIwbGFua2ElMjB0cmFpbnxlbnwwfHx8fDE3NjY3NjY1OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sri lanka train",
+      "description": "A beautiful lush green landscape with a river in Sri Lanka.",
+      "imageUrl": "https://images.unsplash.com/photo-1590393116141-3052dba5adb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNHx8bmF0dXJlJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3MjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sri lanka nature",
       "data-ai-placeholder": "true"
     },
     {
