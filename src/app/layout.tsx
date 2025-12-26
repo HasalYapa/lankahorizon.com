@@ -51,7 +51,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </head>
       <body className={cn('min-h-screen bg-background text-foreground font-body antialiased flex flex-col overflow-x-hidden')}>
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full overflow-x-hidden">
             <Header />
             <main className="flex-grow">{children}</main>
             <Footer />
