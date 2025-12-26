@@ -1,29 +1,37 @@
+'use client';
 import type { Metadata } from 'next';
 import './destination-styles.css';
 import { CustomItineraryForm } from '@/components/CustomItineraryForm';
 import { tourPackages } from '@/lib/data';
-
-export const metadata: Metadata = {
-    title: 'Design Your Custom Itinerary',
-    description:
-        'Tell us what you love, and our local experts will craft the perfect itinerary just for you.',
-};
+import { useEffect } from 'react';
 
 const allDestinations = [...new Set(tourPackages.flatMap(tour => tour.destinations))];
 
 
 export default function DestinationsPage() {
+    useEffect(() => {
+        // This is a workaround to apply dark mode based on system preference
+        // since we are not using the full app layout with theme provider.
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        const handleChange = () => {
+            if (mediaQuery.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        };
+        handleChange();
+        mediaQuery.addEventListener('change', handleChange);
+        return () => mediaQuery.removeEventListener('change', handleChange);
+    }, []);
+
     return (
         <div className="destinations-page-container">
             <div className="flex flex-col lg:flex-row min-h-[calc(100vh-80px)]">
                 {/* Left Side: Visual (Sticky on Desktop) */}
                 <div className="w-full lg:w-5/12 xl:w-1/2 lg:h-[calc(100vh-80px)] lg:sticky lg:top-[80px] relative bg-gray-200 overflow-hidden group">
                     <div
-                        className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                        style={{
-                            backgroundImage:
-                                "url('https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1966&auto=format&fit=crop')",
-                        }}
+                        className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105 hero-bg-image"
                     ></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-background-dark/80 via-transparent to-transparent lg:bg-black/20"></div>
                     <div className="absolute bottom-0 left-0 p-8 lg:p-12 text-white">

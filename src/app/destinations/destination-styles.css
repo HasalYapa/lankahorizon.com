@@ -12,12 +12,14 @@
     --input-bg-dark: #1a2e1d;
 
     /* Apply base styles */
-    @apply font-display text-text-light transition-colors duration-200;
+    font-family: "Inter", sans-serif;
+    color: var(--text-light);
     background-color: var(--background-light);
+    @apply transition-colors duration-200;
 }
 
 .dark .destinations-page-container {
-    @apply text-text-dark;
+    color: var(--text-dark);
     background-color: var(--background-dark);
 }
 
@@ -71,10 +73,6 @@
     box-shadow: var(--tw-shadow, 0 0 #0000), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.destinations-page-container .font-display {
-  font-family: "Inter", sans-serif;
-}
-
 .destinations-page-container input[type="date"] {
     color-scheme: light;
 }
@@ -90,7 +88,7 @@
   border-color: var(--input-border-dark);
 }
 
- .destinations-page-container .bg-background-light {
+.destinations-page-container .bg-background-light {
   background-color: var(--background-light);
 }
 
@@ -111,4 +109,7 @@
 
  .destinations-page-container .dark\\:bg-input-bg-dark {
     background-color: var(--input-bg-dark);
+ }
+ .destinations-page-container .hero-bg-image {
+    background-image: url('https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1966&auto=format&fit=crop');
  }
