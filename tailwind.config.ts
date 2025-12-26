@@ -10,10 +10,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Inter', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
-        code: ['monospace'],
+        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+        display: ['"Playfair Display"', 'serif'],
+        body: ['"Plus Jakarta Sans"', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -49,21 +48,16 @@ export default {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
-        
-        // Custom colors from new design
-        'primary': "#13ec25",
-        "ocean-blue": "#0e4c5b",
-        "ocean-light": "#e0f2f5",
-        "background-light": "#f6f8f6",
-        "background-dark": "#102212",
       },
       borderRadius: {
-        DEFAULT: "1rem",
-        lg: "2rem",
-        xl: "3rem",
-        full: "9999px",
-        md: 'calc(1rem - 2px)',
-        sm: 'calc(1rem - 4px)',
+        DEFAULT: "0.75rem",
+        lg: "1rem",
+        xl: "1.5rem",
+        '2xl': '2rem',
+        '3xl': '3rem',
+        full: '9999px',
+        md: 'calc(0.75rem - 2px)',
+        sm: 'calc(0.75rem - 4px)',
       },
       keyframes: {
         'accordion-down': {
