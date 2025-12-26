@@ -22,16 +22,16 @@ export function FaqSection() {
     },
   ]
   return (
-    <section className="relative py-24" id="faq">
+    <section className="relative py-16 sm:py-24" id="faq">
       <div className="absolute -top-10 -left-10 w-64 h-64 bg-secondary/10 dark:bg-secondary/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
       <div className="absolute top-40 -right-10 w-72 h-72 bg-accent/10 dark:bg-accent/20 rounded-full blur-3xl -z-10"></div>
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
             <span className="text-accent dark:text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Help Center</span>
-            <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
                 Frequently Asked Questions
             </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-lg leading-relaxed">
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
                 Have questions? We have answers. If you can't find what you're looking for, feel free to contact us anytime.
             </p>
         </div>
@@ -43,12 +43,12 @@ export function FaqSection() {
                 key={index}
                 className="group bg-card dark:bg-card-dark rounded-xl shadow-sm hover:shadow-md transition-all border border-border/50 overflow-hidden"
               >
-                <AccordionTrigger className="w-full px-6 py-5 text-left flex justify-between items-center group-hover:text-accent dark:group-hover:text-primary transition-colors font-semibold text-lg no-underline">
+                <AccordionTrigger className="w-full px-6 py-5 text-left flex justify-between items-center group-hover:text-accent dark:group-hover:text-primary transition-colors font-semibold text-base sm:text-lg no-underline">
                   {faq.question}
                   <ChevronDown className="h-6 w-6 shrink-0 transition-transform duration-300 ease-in-out text-muted-foreground group-hover:text-accent dark:group-hover:text-primary" />
                 </AccordionTrigger>
                 <AccordionContent>
-                  <div className="px-6 pb-6 text-muted-foreground leading-relaxed pt-4">
+                  <div className="px-6 pb-6 text-muted-foreground leading-relaxed pt-4 text-sm sm:text-base">
                     {faq.answer}
                   </div>
                 </AccordionContent>

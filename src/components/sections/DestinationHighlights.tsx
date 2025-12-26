@@ -28,7 +28,7 @@ const iconMap: { [key: string]: React.ElementType } = {
 
 export function DestinationHighlights({ destinations }: DestinationHighlightsProps) {
   return (
-    <section className="py-20 bg-white dark:bg-[#0c1a0e]">
+    <section className="py-16 sm:py-20 bg-white dark:bg-[#0c1a0e]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
                 <div>
@@ -51,7 +51,7 @@ export function DestinationHighlights({ destinations }: DestinationHighlightsPro
                     const image = getImage(dest.imageId);
                     const Icon = iconMap[dest.shortDesc] || MapPin;
                     return (
-                      <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                      <CarouselItem key={index} className="basis-full sm:basis-1/2 lg:basis-1/3">
                         <div className="p-1">
                           <Card className="rounded-2xl overflow-hidden group border-0 shadow-none">
                             <CardContent className="relative flex aspect-[4/5] items-center justify-center p-0">

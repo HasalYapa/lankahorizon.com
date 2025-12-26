@@ -16,7 +16,7 @@ export function Hero() {
   return (
     <section className="relative pt-20 min-h-screen flex flex-col justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full z-0">
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-background-light dark:to-background-dark z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-background dark:to-background-dark z-10"></div>
             <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
@@ -34,7 +34,7 @@ export function Hero() {
                         <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
                         #1 Travel Agency in Sri Lanka
                     </div>
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] tracking-tight drop-shadow-lg">
+                    <h1 className="text-5xl sm:text-6xl md:text-7xl font-black text-white leading-[1.1] tracking-tight drop-shadow-lg">
                         Explore <span className="text-primary">Sri Lanka</span> with Locals
                     </h1>
                     <p className="text-lg sm:text-xl text-white/90 font-medium max-w-lg leading-relaxed drop-shadow-md">
@@ -54,7 +54,7 @@ export function Hero() {
                         </Button>
                     </div>
 
-                    <div className="flex items-center gap-6 mt-8 pt-8 border-t border-white/20 w-full">
+                    <div className="flex items-center gap-4 sm:gap-6 mt-8 pt-8 border-t border-white/20 w-full">
                         <div className="flex -space-x-3">
                             <Image alt="Happy traveler face" width={40} height={40} className="w-10 h-10 rounded-full border-2 border-white object-cover" src={avatar1.imageUrl} data-ai-hint={avatar1.imageHint} data-ai-placeholder="true"/>
                             <Image alt="Happy traveler face" width={40} height={40} className="w-10 h-10 rounded-full border-2 border-white object-cover" src={avatar2.imageUrl} data-ai-hint={avatar2.imageHint} data-ai-placeholder="true"/>

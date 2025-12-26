@@ -13,8 +13,8 @@ export function Footer() {
   return (
     <footer className="bg-white dark:bg-[#0c1a0e] pt-16 pb-8 border-t border-gray-100 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-                <div className="col-span-1 md:col-span-1">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div className="col-span-1 md:col-span-4 lg:col-span-1">
                     <Link href="/" className="flex items-center gap-2 mb-4">
                       <Compass className="h-8 w-8 text-primary" />
                       <h2 className="text-xl font-bold text-ocean-blue dark:text-white">{COMPANY_NAME}</h2>
@@ -55,7 +55,7 @@ export function Footer() {
                     <h3 className="text-sm font-bold text-ocean-blue dark:text-white uppercase tracking-wider mb-4">Contact</h3>
                     <ul className="space-y-3">
                         <li className="flex items-start gap-3 text-slate-500 dark:text-slate-400 text-sm">
-                            <MapPin className="text-primary w-4 h-4 mt-0.5" />
+                            <MapPin className="text-primary w-4 h-4 mt-0.5 shrink-0" />
                             <span>{COMPANY_LOCATION}</span>
                         </li>
                         <li className="flex items-center gap-3 text-slate-500 dark:text-slate-400 text-sm">
