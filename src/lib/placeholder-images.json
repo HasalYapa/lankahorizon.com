@@ -132,6 +132,90 @@
       "imageUrl": "https://images.unsplash.com/photo-1531201890865-fb64780d16e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka beach",
       "data-ai-placeholder": "true"
+    },
+    {
+      "id": "nuwara-eliya-destination",
+      "description": "Tea plantations in Nuwara Eliya.",
+      "imageUrl": "https://images.unsplash.com/photo-1580202148112-258d5a1639c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxudXdhcmElMjBlbGl5YXxlbnwwfHx8fDE3NjY4Mjg4MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nuwara eliya",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "ella-destination",
+      "description": "Nine Arch Bridge in Ella.",
+      "imageUrl": "https://images.unsplash.com/photo-1578519050142-afb511e518de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzcmklMjBsYW5rYSUyMHRyYWlufGVufDB8fHx8MTc2Njc2MzI5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ella sri lanka",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "mirissa-destination",
+      "description": "Mirissa beach with Parrot Rock.",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mirissa beach",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "yala-national-park-destination",
+      "description": "An elephant in Yala National Park.",
+      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yala national park",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "anuradhapura-destination",
+      "description": "Ancient ruins in Anuradhapura.",
+      "imageUrl": "https://images.unsplash.com/photo-1627763071302-f016c053351d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbnVyYWRoYXB1cmF8ZW58MHx8fHwxNzY2ODI4ODc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "anuradhapura ruins",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "polonnaruwa-destination",
+      "description": "Historic statues in Polonnaruwa.",
+      "imageUrl": "https://images.unsplash.com/photo-1627894224956-613c7f0d015c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xvbm5hcnV3YXxlbnwwfHx8fDE3NjY4Mjg5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "polonnaruwa statues",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "dambulla-destination",
+      "description": "Dambulla cave temple interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1627894225023-8889a79a4059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYW1idWxsYSUyMGNhdmUlMjB0ZW1wbGV8ZW58MHx8fHwxNzY2ODI4OTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dambulla temple",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "horton-plains-destination",
+      "description": "World's End at Horton Plains.",
+      "imageUrl": "https://images.unsplash.com/photo-1601691233809-58807954e38c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3J0b24lMjBwbGFpbnN8ZW58MHx8fHwxNzY2ODI4OTc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "horton plains",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "unawatuna-destination",
+      "description": "Unawatuna beach from above.",
+      "imageUrl": "https://images.unsplash.com/photo-1613524587748-0137258385bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bmF3YXR1bmF8ZW58MHx8fHwxNzY2ODI5MDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "unawatuna beach",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "bentota-destination",
+      "description": "Bentota river safari.",
+      "imageUrl": "https://images.unsplash.com/photo-1626242548834-58342d815779?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiZW50b3RhfGVufDB8fHx8MTc2NjgyOTAzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bentota river",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "haputale-destination",
+      "description": "View from Lipton's Seat in Haputale.",
+      "imageUrl": "https://images.unsplash.com/photo-1580202148112-258d5a1639c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXB1dGFsZXxlbnwwfHx8fDE3NjY4MjkwNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "haputale view",
+      "data-ai-placeholder": "true"
+    },
+    {
+      "id": "hikkaduwa-destination",
+      "description": "Coral reefs in Hikkaduwa.",
+      "imageUrl": "https://images.unsplash.com/photo-1593539929842-861e670e176b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHzoaWtrYWR1d2F8ZW58MHx8fHwxNzY2ODI5MDg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hikkaduwa coral",
+      "data-ai-placeholder": "true"
     }
   ]
 }
