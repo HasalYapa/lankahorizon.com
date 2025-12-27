@@ -3,7 +3,7 @@
     {
       "id": "hero-background",
       "description": "A stunning aerial view of a Sri Lankan beach with palm trees and turquoise water.",
-      "imageUrl": "/uploads/Gemini_Generated_Image_b5cxcdb5cxcdb5cx.png",
+      "imageUrl": "/uploads/ocean-4270249_1920.jpg",
       "imageHint": "sri lanka beach",
       "data-ai-placeholder": "true"
     },
@@ -31,7 +31,7 @@
     {
       "id": "highlands-and-wildlife-tour",
       "description": "A leopard in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "wildlife sri lanka",
       "data-ai-placeholder": "true"
     },
@@ -59,28 +59,28 @@
     {
       "id": "kandy-destination",
       "description": "Temple of the Tooth Relic in Kandy.",
-      "imageUrl": "https://images.unsplash.com/photo-1707324021005-a3d0c48cfcbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keSUyMHRlbXBsZXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1707324021005-a3d0c48cfcbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keSUyMHRlbXBsZXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "kandy temple",
       "data-ai-placeholder": "true"
     },
     {
       "id": "sigiriya-destination",
       "description": "A stunning, high-resolution photograph of the majestic Sigiriya Rock Fortress in Sri Lanka, viewed from a distance with the lush green jungle surrounding its base and a clear blue sky above.",
-      "imageUrl": "https://images.unsplash.com/photo-1579762499131-38f374530863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgxMDExN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579762499131-38f374530863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgxMDExN3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sigiriya sri lanka",
       "data-ai-placeholder": "true"
     },
     {
       "id": "kandy-ella-train",
       "description": "Train moving through lush green tea plantations in Sri Lanka",
-      "imageUrl": "https://images.unsplash.com/photo-1665849050430-5e8c16bacf7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keXxlbnwwfHx8fDE3NjY3NjU5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1665849050430-5e8c16bacf7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keXxlbnwwfHx8fDE3NjY3NjU5MDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka train",
       "data-ai-placeholder": "true"
     },
     {
       "id": "mirissa-beach",
       "description": "A stunning view of the iconic Parrot Rock in Mirissa, Sri Lanka, with waves crashing against the shore at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
@@ -192,7 +192,7 @@
     {
       "id": "haputale-destination",
       "description": "View from Lipton's Seat in Haputale.",
-      "imageUrl": "https://images.unsplash.com/photo-1580202148112-258d5a1639c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXB1dGFsZXxlbnwwfHx8fDE3NjY4MjkwNjV8MA&ixlib_rb_4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580202148112-258d5a1639c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx4YXB1dGFsZXxlbnwwfHx8fDE3NjY4MjkwNjV8MA&ixlib_rb_4.1.0&q=80&w=1080",
       "imageHint": "haputale view",
       "data-ai-placeholder": "true"
     },
@@ -260,7 +260,7 @@
     {
       "id": "contact-page-hero",
       "description": "Stunning aerial view of Sri Lankan coastline with palm trees and blue ocean",
-      "imageUrl": "https://images.unsplash.com/photo-1668751903961-05d3276fcf69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1668751903961-05d3276fcf69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "galle sri lanka"
     },
     {
