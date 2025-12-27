@@ -52,21 +52,21 @@
     {
       "id": "testimonial-avatar-3",
       "description": "Avatar for a family.",
-      "imageUrl": "https://images.unsplash.com/photo-1661244291437-e2deefb43cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8dHJpcCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTU0OHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1661244291437-e2deefb43cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8dHJpcCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTU0OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "family photo",
       "data-ai-placeholder": "true"
     },
     {
       "id": "kandy-destination",
       "description": "Temple of the Tooth Relic in Kandy.",
-      "imageUrl": "https://images.unsplash.com/photo-1707324021005-a3d0c48cfcbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keSUyMHRlbXBsZXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1707324021005-a3d0c48cfcbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keSUyMHRlbXBsZXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kandy temple",
       "data-ai-placeholder": "true"
     },
     {
       "id": "sigiriya-destination",
       "description": "A stunning, high-resolution photograph of the majestic Sigiriya Rock Fortress in Sri Lanka, viewed from a distance with the lush green jungle surrounding its base and a clear blue sky above.",
-      "imageUrl": "https://images.unsplash.com/photo-1579762499131-38f374530863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgxMDExN3ww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579762499131-38f374530863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgxMDExN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sigiriya sri lanka",
       "data-ai-placeholder": "true"
     },
@@ -80,7 +80,7 @@
     {
       "id": "mirissa-beach",
       "description": "A stunning view of the iconic Parrot Rock in Mirissa, Sri Lanka, with waves crashing against the shore at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
@@ -204,7 +204,7 @@
       "data-ai-placeholder": "true"
     },
     {
-      "id": "about-hero-bg",
+      "id": "about-hero-bg-new",
       "description": "Lush green Sri Lankan tea plantations in the mist.",
       "imageUrl": "https://images.unsplash.com/photo-1503543100709-46d05b976bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bHVzaCUyMGdyZWVufGVufDB8fHx8MTc2NjgwMzU0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "lush green"
@@ -212,7 +212,7 @@
     {
       "id": "about-stilt-fishermen",
       "description": "Traditional Sri Lankan stilt fishermen at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1622115119100-35a8c47260e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1622115119100-35a8c47260e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "stilt fishermen"
     },
     {
@@ -252,10 +252,10 @@
       "imageHint": "train sri lanka"
     },
     {
-      "id": "about-cta-bg-waterfall",
-      "description": "Sri Lankan waterfall and lush jungle.",
-      "imageUrl": "https://images.unsplash.com/photo-1552055669-d01771d214a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcmklMjBsYW5rYSUyMHdhdGVyZmFsbHxlbnwwfHx8fDE3NjY4MDcyNDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "sri lanka waterfall"
+      "id": "testimonial-avatar-sarah-jenkins",
+      "description": "Avatar for Sarah Jenkins",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2NzE1MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling woman"
     },
     {
       "id": "contact-hero-bg",
