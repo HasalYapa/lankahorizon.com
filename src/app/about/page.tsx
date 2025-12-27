@@ -2,6 +2,8 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Mail, Phone, MapPin, Twitter, Facebook, Instagram, Compass } from 'lucide-react';
+import { WHATSAPP_LINK } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'About LankaHorizon',
@@ -10,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="bg-background-light dark:bg-background-dark text-[#111812] dark:text-white font-display antialiased">
+    <div className="bg-background dark:bg-background-dark text-foreground font-display antialiased">
       {/* Hero Section */}
       <header className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
         <div 
@@ -28,9 +30,9 @@ export default function AboutPage() {
             <p className="text-white/90 text-lg md:text-xl font-normal leading-relaxed max-w-2xl">
                 We are more than just a travel agency; we are your local friends in paradise, ready to show you the hidden wonders of our island home.
             </p>
-            <button className="mt-4 flex cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-primary text-[#111812] text-base font-bold transition transform hover:scale-105">
+            <Link href="/tours" className="mt-4 flex cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-primary text-foreground text-base font-bold transition transform hover:scale-105">
                 Learn More
-            </button>
+            </Link>
         </div>
       </header>
 
@@ -103,9 +105,9 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card 1 */}
-            <div className="group bg-background-light dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
+            <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-primary group-hover:text-[#111812] text-3xl transition-colors">map</span>
+                <span className="material-symbols-outlined text-primary group-hover:text-foreground text-3xl transition-colors">map</span>
               </div>
               <h3 className="text-foreground dark:text-white text-xl font-bold mb-3">Expert Local Knowledge</h3>
               <p className="text-muted-foreground dark:text-gray-300 text-sm leading-relaxed">
@@ -113,9 +115,9 @@ export default function AboutPage() {
               </p>
             </div>
             {/* Card 2 */}
-            <div className="group bg-background-light dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
+            <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-primary group-hover:text-[#111812] text-3xl transition-colors">edit_note</span>
+                <span className="material-symbols-outlined text-primary group-hover:text-foreground text-3xl transition-colors">edit_note</span>
               </div>
               <h3 className="text-foreground dark:text-white text-xl font-bold mb-3">Tailor-Made Itineraries</h3>
               <p className="text-muted-foreground dark:text-gray-300 text-sm leading-relaxed">
@@ -123,9 +125,9 @@ export default function AboutPage() {
               </p>
             </div>
             {/* Card 3 */}
-            <div className="group bg-background-light dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
+            <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-primary group-hover:text-[#111812] text-3xl transition-colors">eco</span>
+                <span className="material-symbols-outlined text-primary group-hover:text-foreground text-3xl transition-colors">eco</span>
               </div>
               <h3 className="text-foreground dark:text-white text-xl font-bold mb-3">Sustainable Travel</h3>
               <p className="text-muted-foreground dark:text-gray-300 text-sm leading-relaxed">
@@ -133,9 +135,9 @@ export default function AboutPage() {
               </p>
             </div>
             {/* Card 4 */}
-            <div className="group bg-background-light dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
+            <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-primary group-hover:text-[#111812] text-3xl transition-colors">support_agent</span>
+                <span className="material-symbols-outlined text-primary group-hover:text-foreground text-3xl transition-colors">support_agent</span>
               </div>
               <h3 className="text-foreground dark:text-white text-xl font-bold mb-3">24/7 Support</h3>
               <p className="text-muted-foreground dark:text-gray-300 text-sm leading-relaxed">
@@ -162,7 +164,7 @@ export default function AboutPage() {
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
                 <Image width="160" height="160" alt="Portrait of Kumara, Senior Guide" className="w-full h-full object-cover" data-alt="smiling sri lankan man close up portrait" src="https://images.unsplash.com/photo-1599530548461-89c6d97497b4?q=80&w=512&auto=format&fit=crop"/>
               </div>
-              <div className="absolute bottom-0 right-0 bg-primary text-[#111812] p-2 rounded-full shadow-lg">
+              <div className="absolute bottom-0 right-0 bg-primary text-foreground p-2 rounded-full shadow-lg">
                 <span className="material-symbols-outlined text-sm font-bold">star</span>
               </div>
             </div>
@@ -229,7 +231,7 @@ export default function AboutPage() {
 
       {/* CTA Section */}
       <section className="py-24 px-4">
-        <div className="relative max-w-5xl mx-auto rounded-xl bg-[#111812] overflow-hidden">
+        <div className="relative max-w-5xl mx-auto rounded-xl bg-foreground overflow-hidden">
           <div className="absolute inset-0 z-0 opacity-40 mix-blend-overlay bg-cover bg-center" data-alt="train crossing nine arch bridge ella sri lanka" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1523975862609-33543b49e9c8?q=80&w=2670&auto=format&fit=crop")'}}>
           </div>
           <div className="relative z-10 flex flex-col items-center justify-center text-center p-12 md:p-20 space-y-8">
@@ -240,10 +242,10 @@ export default function AboutPage() {
                 Whether you want a relaxing beach holiday or an adventurous mountain trek, we are here to make it happen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
-              <Link href="/custom-itinerary" className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-primary text-[#111812] text-base font-bold hover:bg-[#0fd620] transition-colors shadow-lg shadow-primary/20">
+              <Link href="/custom-itinerary" className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-primary text-foreground text-base font-bold hover:bg-green-400 transition-colors shadow-lg shadow-primary/20">
                   Book Now
               </Link>
-              <Link href="/contact" className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-transparent border-2 border-white text-white text-base font-bold hover:bg-white hover:text-[#111812] transition-colors">
+              <Link href="/contact" className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-transparent border-2 border-white text-white text-base font-bold hover:bg-white hover:text-foreground transition-colors">
                   Contact Us
               </Link>
             </div>
