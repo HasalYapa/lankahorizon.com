@@ -243,14 +243,15 @@ export default function AboutPage() {
             </section>
             
             <section className="py-24 px-4">
-                <div className="relative max-w-5xl mx-auto rounded-xl bg-card overflow-hidden">
-                     <Image
+                <div className="relative max-w-5xl mx-auto rounded-xl overflow-hidden">
+                    <Image
                         src={waterfallCtaImage.imageUrl}
                         alt={waterfallCtaImage.description}
                         fill
-                        className="object-cover object-center opacity-40 mix-blend-overlay"
+                        className="object-cover object-center"
                         data-ai-hint={waterfallCtaImage.imageHint}
                     />
+                    <div className="absolute inset-0 bg-black/60"></div>
                     <div className="relative z-10 flex flex-col items-center justify-center text-center p-12 md:p-20 space-y-8">
                         <h2 className="text-white text-3xl md:text-5xl font-black leading-tight max-w-3xl">
                             Ready to write your own Sri Lankan story?
@@ -271,4 +272,5 @@ export default function AboutPage() {
             </section>
         </main>
     );
-}
+
+    
