@@ -57,13 +57,6 @@
       "data-ai-placeholder": "true"
     },
     {
-      "id": "about-us-image",
-      "description": "A group of smiling tour guides from Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1599530548461-89c6d97497b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0b3VyJTIwZ3VpZGVzfGVufDB8fHx8MTc2Njc1MzU3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "tour guides",
-      "data-ai-placeholder": "true"
-    },
-    {
       "id": "kandy-destination",
       "description": "Temple of the Tooth Relic in Kandy.",
       "imageUrl": "https://images.unsplash.com/photo-1707324021005-a3d0c48cfcbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keSUyMHRlbXBsZXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -73,7 +66,7 @@
     {
       "id": "sigiriya-destination",
       "description": "Sigiriya Rock Fortress standing tall amidst green jungle",
-      "imageUrl": "https://images.unsplash.com/photo-1705730613910-84df99f0ad7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8c2lnaXJpeWF8ZW58MHx8fHwxNzY2NzY2MzcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1595130761245-7a6f29633633?q=80&w=2574&auto=format&fit=crop",
       "imageHint": "sigiriya rock",
       "data-ai-placeholder": "true"
     },
@@ -178,7 +171,7 @@
     {
       "id": "dambulla-destination",
       "description": "Dambulla cave temple interior.",
-      "imageUrl": "https://images.unsplash.com/photo-1627894225023-8889a79a4059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYW1idWxsYSUyMGNhdmUlMjB0ZW1wbGV8ZW58MHx8fHwxNzY2ODI4OTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627894225023-8889a79a4059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYW1idWxsYSUyMGNhdmUlMjB0ZW1wbGV8ZW58MHx8fHwxNzY2ODI4OTQ2fDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "dambulla temple",
       "data-ai-placeholder": "true"
     },
@@ -192,7 +185,7 @@
     {
       "id": "unawatuna-destination",
       "description": "Unawatuna beach from above.",
-      "imageUrl": "https://images.unsplash.com/photo-1613524587748-0137258385bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bmF3YXR1bmF8ZW58MHx8fHwxNzY2ODI5MDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1613524587748-0137258385bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bmF3YXR1bmF8ZW58MHx8fHwxNzY2ODI5MDA5fDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "unawatuna beach",
       "data-ai-placeholder": "true"
     },
@@ -206,16 +199,64 @@
     {
       "id": "haputale-destination",
       "description": "View from Lipton's Seat in Haputale.",
-      "imageUrl": "https://images.unsplash.com/photo-1580202148112-258d5a1639c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXB1dGFsZXxlbnwwfHx8fDE3NjY4MjkwNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580202148112-258d5a1639c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXB1dGFsZXxlbnwwfHx8fDE3NjY4MjkwNjV8MA&ixlib_rb-4.1.0&q=80&w=1080",
       "imageHint": "haputale view",
       "data-ai-placeholder": "true"
     },
     {
       "id": "hikkaduwa-destination",
       "description": "Coral reefs in Hikkaduwa.",
-      "imageUrl": "https://images.unsplash.com/photo-1593539929842-861e670e176b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHzoaWtrYWR1d2F8ZW58MHx8fHwxNzY2ODI5MDg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1593539929842-861e670e176b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHzoaWtrYWR1d2F8ZW58MHx8fHwxNzY2ODI5MDg5fDA&ixlib_rb-4.1.0&q=80&w=1080",
       "imageHint": "hikkaduwa coral",
       "data-ai-placeholder": "true"
+    },
+    {
+      "id": "about-us-hero",
+      "description": "Lush green tea plantations in the Sri Lankan highlands, shrouded in mist.",
+      "imageUrl": "https://images.unsplash.com/photo-1549492423-400259a21914?q=80&w=2574&auto=format&fit=crop",
+      "imageHint": "tea plantations mist"
+    },
+    {
+      "id": "stilt-fishermen",
+      "description": "Traditional stilt fishermen in Sri Lanka silhouetted against a beautiful sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1588264283547-41842878c775?q=80&w=2574&auto=format&fit=crop",
+      "imageHint": "stilt fishermen sunset"
+    },
+    {
+      "id": "serene-beach",
+      "description": "A serene and empty beach in Sri Lanka with golden sand and turquoise water.",
+      "imageUrl": "https://images.unsplash.com/photo-1531201890865-fb64780d16e9?q=80&w=2592&auto=format&fit=crop",
+      "imageHint": "serene beach"
+    },
+    {
+      "id": "kumara-perera-portrait",
+      "description": "Close-up portrait of a smiling Sri Lankan man, likely a tour guide.",
+      "imageUrl": "https://images.unsplash.com/photo-1599530548461-89c6d97497b4?q=80&w=512&auto=format&fit=crop",
+      "imageHint": "sri lankan man"
+    },
+    {
+      "id": "dilani-silva-portrait",
+      "description": "Professional portrait of a smiling woman who looks like a cultural expert.",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?q=80&w=512&auto=format&fit=crop",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "nuwan-fernando-portrait",
+      "description": "A smiling man with a casual look, could be a safari specialist.",
+      "imageUrl": "https://images.unsplash.com/photo-1627958117769-b59367a8a19b?q=80&w=512&auto=format&fit=crop",
+      "imageHint": "smiling man"
+    },
+    {
+      "id": "anjali-de-silva-portrait",
+      "description": "Portrait of a smiling woman in bright, natural light.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=512&auto=format&fit=crop",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "cta-background-train",
+      "description": "A train crossing the Nine Arch Bridge in Ella, Sri Lanka.",
+      "imageUrl": "https://images.unsplash.com/photo-1523975862609-33543b49e9c8?q=80&w=2670&auto=format&fit=crop",
+      "imageHint": "train sri lanka"
     }
   ]
 }

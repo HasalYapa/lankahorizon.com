@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Mail, Phone, MapPin, Twitter, Facebook, Instagram, Compass } from 'lucide-react';
 import { WHATSAPP_LINK } from '@/lib/constants';
+import { getImage } from '@/lib/placeholder-images';
 
 export const metadata: Metadata = {
   title: 'About LankaHorizon',
@@ -11,17 +12,33 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const heroImage = getImage('about-us-hero');
+  const stiltFishermenImage = getImage('stilt-fishermen');
+  const sigiriyaImage = getImage('sigiriya-destination');
+  const sereneBeachImage = getImage('serene-beach');
+  const kumaraPereraImage = getImage('kumara-perera-portrait');
+  const dilaniSilvaImage = getImage('dilani-silva-portrait');
+  const nuwanFernandoImage = getImage('nuwan-fernando-portrait');
+  const anjaliDeSilvaImage = getImage('anjali-de-silva-portrait');
+  const reviewerAvatarImage = getImage('testimonial-avatar-2');
+  const ctaBackgroundImage = getImage('cta-background-train');
+
   return (
     <div className="bg-background dark:bg-background-dark text-foreground font-display antialiased">
       {/* Hero Section */}
       <header className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" 
-          data-alt="lush green sri lankan tea plantations mist" 
-          style={{
-            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.unsplash.com/photo-1549492423-400259a21914?q=80&w=2574&auto=format&fit=crop")',
-          }}
+          className="absolute inset-0 z-0"
         >
+          <Image
+            src={heroImage.imageUrl}
+            alt={heroImage.description}
+            fill
+            className="object-cover"
+            priority
+            data-ai-hint={heroImage.imageHint}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
         </div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col gap-6 items-center">
             <h1 className="text-white text-4xl md:text-6xl font-black leading-tight tracking-[-0.033em]">
@@ -79,18 +96,33 @@ export default function AboutPage() {
             </button>
           </div>
           <div className="flex-1 grid grid-cols-2 gap-4 w-full h-full relative">
-            <div className="col-span-1">
-              <div className="w-full h-64 md:h-80 rounded-xl bg-cover bg-center shadow-lg transform hover:rotate-1 transition duration-500" data-alt="traditional sri lankan stilt fishermen sunset" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1588264283547-41842878c775?q=80&w=2574&auto=format&fit=crop")'}}>
+              <div className="col-span-1 relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg transform hover:rotate-1 transition duration-500">
+                  <Image
+                      src={stiltFishermenImage.imageUrl}
+                      alt={stiltFishermenImage.description}
+                      fill
+                      className="object-cover"
+                      data-ai-hint={stiltFishermenImage.imageHint}
+                  />
               </div>
-            </div>
-            <div className="col-span-1">
-              <div className="w-full h-64 md:h-80 rounded-xl bg-cover bg-center shadow-lg transform hover:-rotate-1 transition duration-500" data-alt="sigiriya rock fortress ancient ruins jungle" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1595130761245-7a6f29633633?q=80&w=2574&auto=format&fit=crop")'}}>
+              <div className="col-span-1 relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg transform hover:-rotate-1 transition duration-500">
+                  <Image
+                      src={sigiriyaImage.imageUrl}
+                      alt={sigiriyaImage.description}
+                      fill
+                      className="object-cover"
+                      data-ai-hint={sigiriyaImage.imageHint}
+                  />
               </div>
-            </div>
-             <div className="col-span-2">
-                <div className="w-full h-64 rounded-xl bg-cover bg-center shadow-lg transform hover:scale-105 transition duration-500" data-alt="serene beach in sri lanka" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1531201890865-fb64780d16e9?q=80&w=2592&auto=format&fit=crop")'}}>
-                </div>
-            </div>
+              <div className="col-span-2 relative h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition duration-500">
+                  <Image
+                      src={sereneBeachImage.imageUrl}
+                      alt={sereneBeachImage.description}
+                      fill
+                      className="object-cover"
+                      data-ai-hint={sereneBeachImage.imageHint}
+                  />
+              </div>
             <div className="absolute -z-10 -bottom-10 -right-10 w-40 h-40 bg-primary/20 rounded-full blur-3xl"></div>
           </div>
         </div>
@@ -162,7 +194,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
-                <Image width="160" height="160" alt="Portrait of Kumara, Senior Guide" className="w-full h-full object-cover" data-alt="smiling sri lankan man close up portrait" src="https://images.unsplash.com/photo-1599530548461-89c6d97497b4?q=80&w=512&auto=format&fit=crop"/>
+                <Image width="160" height="160" alt={kumaraPereraImage.description} className="w-full h-full object-cover" data-ai-hint={kumaraPereraImage.imageHint} src={kumaraPereraImage.imageUrl}/>
               </div>
               <div className="absolute bottom-0 right-0 bg-primary text-foreground p-2 rounded-full shadow-lg">
                 <span className="material-symbols-outlined text-sm font-bold">star</span>
@@ -177,7 +209,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
-                <Image width="160" height="160" alt="Portrait of Dilani, Cultural Expert" className="w-full h-full object-cover" data-alt="smiling woman professional portrait business" src="https://images.unsplash.com/photo-1592621385612-4d7129426394?q=80&w=512&auto=format&fit=crop"/>
+                <Image width="160" height="160" alt={dilaniSilvaImage.description} className="w-full h-full object-cover" data-ai-hint={dilaniSilvaImage.imageHint} src={dilaniSilvaImage.imageUrl}/>
               </div>
             </div>
             <div>
@@ -189,7 +221,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
-                <Image width="160" height="160" alt="Portrait of Nuwan, Safari Specialist" className="w-full h-full object-cover" data-alt="man smiling portrait casual look" src="https://images.unsplash.com/photo-1627958117769-b59367a8a19b?q=80&w=512&auto=format&fit=crop"/>
+                <Image width="160" height="160" alt={nuwanFernandoImage.description} className="w-full h-full object-cover" data-ai-hint={nuwanFernandoImage.imageHint} src={nuwanFernandoImage.imageUrl}/>
               </div>
             </div>
             <div>
@@ -201,7 +233,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
-                <Image width="160" height="160" alt="Portrait of Anjali, Travel Coordinator" className="w-full h-full object-cover" data-alt="woman smiling bright natural light portrait" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=512&auto=format&fit=crop"/>
+                <Image width="160" height="160" alt={anjaliDeSilvaImage.description} className="w-full h-full object-cover" data-ai-hint={anjaliDeSilvaImage.imageHint} src={anjaliDeSilvaImage.imageUrl}/>
               </div>
             </div>
             <div>
@@ -220,7 +252,7 @@ export default function AboutPage() {
               "We had the most amazing honeymoon thanks to LankaHorizon. The itinerary was perfect, balancing adventure with relaxation. Our driver, Kumara, felt like family by the end of the trip!"
           </p>
           <div className="flex items-center justify-center gap-4">
-            <Image width="48" height="48" alt="Reviewer Avatar" className="w-12 h-12 rounded-full object-cover border-2 border-primary" data-alt="smiling woman avatar portrait" src="https://images.unsplash.com/photo-1592621385612-4d7129426394?q=80&w=512&auto=format&fit=crop"/>
+            <Image width="48" height="48" alt={reviewerAvatarImage.description} className="w-12 h-12 rounded-full object-cover border-2 border-primary" data-ai-hint={reviewerAvatarImage.imageHint} src={reviewerAvatarImage.imageUrl}/>
             <div className="text-left">
               <p className="font-bold text-foreground dark:text-white">Sarah Jenkins</p>
               <p className="text-sm text-muted-foreground dark:text-gray-400">United Kingdom</p>
@@ -232,7 +264,14 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-24 px-4">
         <div className="relative max-w-5xl mx-auto rounded-xl bg-foreground overflow-hidden">
-          <div className="absolute inset-0 z-0 opacity-40 mix-blend-overlay bg-cover bg-center" data-alt="train crossing nine arch bridge ella sri lanka" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1523975862609-33543b49e9c8?q=80&w=2670&auto=format&fit=crop")'}}>
+          <div className="absolute inset-0 z-0">
+             <Image
+                src={ctaBackgroundImage.imageUrl}
+                alt={ctaBackgroundImage.description}
+                fill
+                className="object-cover object-center opacity-40 mix-blend-overlay"
+                data-ai-hint={ctaBackgroundImage.imageHint}
+              />
           </div>
           <div className="relative z-10 flex flex-col items-center justify-center text-center p-12 md:p-20 space-y-8">
             <h2 className="text-white text-3xl md:text-5xl font-black leading-tight max-w-3xl">
