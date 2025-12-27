@@ -24,7 +24,7 @@
     {
       "id": "cultural-triangle-explorer-tour",
       "description": "A traditional colorful Sri Lankan mask.",
-      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lankan mask",
       "data-ai-placeholder": "true"
     },
@@ -45,14 +45,14 @@
     {
       "id": "testimonial-avatar-2",
       "description": "Avatar for a smiling woman.",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1559855603-ce4c8f480d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2NzE1MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1559855603-ce4c8f480d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2NzE1MzUxfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "woman smiling",
       "data-ai-placeholder": "true"
     },
     {
       "id": "testimonial-avatar-3",
       "description": "Avatar for a family.",
-      "imageUrl": "https://images.unsplash.com/photo-1602255680702-c47261041a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYW1pbHklMjBwaG90b3xlbnwwfHx8fDE3NjY4MDg4ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1602255680702-c47261041a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYW1pbHklMjBwaG90b3xlbnwwfHx8fDE3NjY4MDg4ODl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "family photo",
       "data-ai-placeholder": "true"
     },
@@ -259,9 +259,9 @@
     },
     {
       "id": "contact-page-hero",
-      "description": "Stunning aerial view of Sri Lankan coastline with palm trees and blue ocean",
-      "imageUrl": "https://images.unsplash.com/photo-1668751903961-05d3276fcf69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "galle sri lanka"
+      "description": "A close-up of a traditional Sri Lankan mask.",
+      "imageUrl": "/uploads/mask-3235633_1920.jpg",
+      "imageHint": "sri lankan mask"
     },
     {
       "id": "contact-map-bg",
