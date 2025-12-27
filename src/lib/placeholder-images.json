@@ -17,28 +17,28 @@
     {
       "id": "southern-coast-adventure-tour",
       "description": "A beautiful sunset over a tropical beach in southern Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "galle sri lanka",
       "data-ai-placeholder": "true"
     },
     {
       "id": "cultural-triangle-explorer-tour",
       "description": "A traditional colorful Sri Lankan mask.",
-      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lankan mask",
       "data-ai-placeholder": "true"
     },
     {
       "id": "highlands-and-wildlife-tour",
       "description": "A leopard in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "wildlife sri lanka",
       "data-ai-placeholder": "true"
     },
     {
       "id": "testimonial-avatar-1",
       "description": "Avatar for a happy couple.",
-      "imageUrl": "https://images.unsplash.com/photo-1541679368093-5c967ac6de11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMGNvdXBsZXxlbnwwfHx8fDE3NjY2NjgzMDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1541679368093-5c967ac6de11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMGNvdXBsZXxlbnwwfHx8fDE3NjY2NjgzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "happy couple",
       "data-ai-placeholder": "true"
     },
@@ -65,9 +65,9 @@
     },
     {
       "id": "sigiriya-destination",
-      "description": "Sigiriya Rock Fortress standing tall amidst green jungle",
-      "imageUrl": "https://images.unsplash.com/photo-1595130761245-7a6f29633633?q=80&w=2574&auto=format&fit=crop",
-      "imageHint": "sigiriya rock",
+      "description": "A stunning, high-resolution photograph of the majestic Sigiriya Rock Fortress in Sri Lanka, viewed from a distance with the lush green jungle surrounding its base and a clear blue sky above.",
+      "imageUrl": "https://images.unsplash.com/photo-1579762499131-38f374530863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgxMDExN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sigiriya sri lanka",
       "data-ai-placeholder": "true"
     },
     {
@@ -143,7 +143,7 @@
     {
       "id": "mirissa-destination",
       "description": "Mirissa beach with Parrot Rock.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
@@ -164,7 +164,7 @@
     {
       "id": "polonnaruwa-destination",
       "description": "Historic statues in Polonnaruwa.",
-      "imageUrl": "https://images.unsplash.com/photo-1627894224956-613c7f0d015c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xvbm5hcnV3YXxlbnwwfHx8fDE3NjY4Mjg5MTJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627894224956-613c7f0d015c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xvbm5hcnV3YXxlbnwwfHx8fDE3NjY4Mjg5MTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "polonnaruwa statues",
       "data-ai-placeholder": "true"
     },
