@@ -150,7 +150,7 @@
     {
       "id": "yala-national-park-destination",
       "description": "An elephant in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "yala national park",
       "data-ai-placeholder": "true"
     },
@@ -217,40 +217,10 @@
       "imageHint": "tea plantations mist"
     },
     {
-      "id": "about-stilt-fishermen",
-      "description": "Traditional Sri Lankan stilt fishermen at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1588264283547-41842878c775?q=80&w=2574&auto=format&fit=crop",
-      "imageHint": "stilt fishermen"
-    },
-    {
       "id": "serene-beach",
       "description": "A serene and empty beach in Sri Lanka with golden sand and turquoise water.",
       "imageUrl": "https://images.unsplash.com/photo-1531201890865-fb64780d16e9?q=80&w=2592&auto=format&fit=crop",
       "imageHint": "serene beach"
-    },
-    {
-      "id": "kumara-perera-portrait",
-      "description": "Close-up portrait of a smiling Sri Lankan man, likely a tour guide.",
-      "imageUrl": "https://images.unsplash.com/photo-1599530548461-89c6d97497b4?q=80&w=512&auto=format&fit=crop",
-      "imageHint": "sri lankan man"
-    },
-    {
-      "id": "dilani-silva-portrait",
-      "description": "Professional portrait of a smiling woman who looks like a cultural expert.",
-      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?q=80&w=512&auto=format&fit=crop",
-      "imageHint": "professional woman"
-    },
-    {
-      "id": "nuwan-fernando-portrait",
-      "description": "A smiling man with a casual look, could be a safari specialist.",
-      "imageUrl": "https://images.unsplash.com/photo-1627958117769-b59367a8a19b?q=80&w=512&auto=format&fit=crop",
-      "imageHint": "smiling man"
-    },
-    {
-      "id": "anjali-de-silva-portrait",
-      "description": "Portrait of a smiling woman in bright, natural light.",
-      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=512&auto=format&fit=crop",
-      "imageHint": "woman smiling"
     },
     {
       "id": "cta-background-train",
@@ -267,19 +237,25 @@
     {
       "id": "about-hero-bg",
       "description": "Lush green Sri Lankan tea plantations in the mist.",
-      "imageUrl": "https://images.unsplash.com/photo-1549492423-400259a21914?q=80&w=2574&auto=format&fit=crop",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuC2d0HJG4F_QvAb1rBrjoPbVGzayB7nl4PhGt94upU7oGnFXT-DQIDtGpkhDRir11MaUbDlpwJAvNyKjkdqhOuKNfDHZTQvz70Q61-HhtmDeRHwLqaReuXmB8cnYkOZRIx0v3QSQlqNrNvdHQn_j826C6THcVc-HMSXCOW9KFzOZzBLzjCwz2SQSUowNN49HoVTPdC91MN_rbVu5KVNwXCX7hiD_VoUPc35HZvlbCtyEGT1cbmcm9io-mPV33OnS9fFRDyllgkHV95_",
       "imageHint": "lush green"
+    },
+    {
+      "id": "about-stilt-fishermen",
+      "description": "Traditional Sri Lankan stilt fishermen at sunset.",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuD2sm7rH_9uepOQeryWzMhU54QhIkjkrhneSgaWqOojRSbvq6uMP2Ij6Z_fH8RxAepG_pebm3vWxhYBmEPuBME4b_3YpxBpyVEHn0cS6P9gxNNUCeIQx2n57BlCHvfduhi29VGwftPYTNt0PMKOSOE1MbxwSHEyQd8hofqUSnFuYmO1nh4Gm_ed_esfsmTYiCbLk-ZFkGANelc83LqaVanVhdbvzU8jJzmZRbZf-0EG61QP9BS_SQgoae4W0q6xef6vEBLPTybsUbsm",
+      "imageHint": "stilt fishermen"
     },
     {
       "id": "about-sigiriya-rock",
       "description": "Sigiriya rock fortress, an ancient ruin in the jungle.",
-      "imageUrl": "https://images.unsplash.com/photo-1595130761245-7a6f29633633?q=80&w=2574&auto=format&fit=crop",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCfhmPWoIRNFOvGMhjZQuA6E1ot1BZTG7ogEhp36dD5j6inQrFlUEM1Z-cgCK1NIOIGWcwl-GKMpJqYXhHIGk44jEnNGbEMSKfklfmEgY9NCcru46K49r8bwlAv7u71fQsEQTz-RveyLw8lBL0eLojAM1f2DCSwfY5d351qtMj0AVCrS5VrnFk7PJije1ueH1Xsr9Jnp0o_cl2-raJiVJ8ZAil9ArwqwXwGjp4RvQqDlMeup6kjEaPxhK2qvAseYRpCDs2Hnx4t2_nc",
       "imageHint": "sigiriya rock"
     },
     {
       "id": "about-reviewer-avatar",
       "description": "Portrait of a smiling woman.",
-      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?q=80&w=512&auto=format&fit=crop",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAouFh_VXgehnMoht7nIyUbAZ880Hl7v9Ln-JKE6PkqsUCXjpzH5LmJH2LcXE0_byJo931cRfotzPn49vTYa_MqE29SH23EAEBywgCY-oXvA22Ilow4ahtihWPF0mlyR89hFs6pWFB34TOQNGLviMeByUW608uzUFbUPOfObgTZICxbrLKn01THUqFiX7OQw_C8EVO8SRd10vlHfyiw7YjFPR3qNDOI1YLZ83ICYTuvFDOrkgFvOF90ejq2xLruFnr2r_R_bi3UzvV5",
       "imageHint": "woman smiling"
     },
     {
@@ -287,6 +263,42 @@
       "description": "A stunning, vibrant sunset over a calm Sri Lankan beach.",
       "imageUrl": "https://images.unsplash.com/photo-1531201890865-fb64780d16e9?q=80&w=2592&auto=format&fit=crop",
       "imageHint": "sri lanka sunset"
+    },
+    {
+      "id": "kumara-perera-portrait",
+      "description": "Close-up portrait of a smiling Sri Lankan man, likely a tour guide.",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBAQe5JuXEgNVDhvoewNCZvAzM3nfl9NSBtECnNKLd1MpJi0vGfH6ZIXsMon_u3z_jc-crkUMksKLLSyq3Sd0YZE0_9fbpeFNl_1eJrcXd1PaECQe7ox57BBBIKUFGeo-cnOr8iy6I-jbpih9gvH17iyEzIriT0pIXeqLXoZZpACMhZWuW1PToN9hvpTNnNn-BL5qYmUIubRgKBefWBi9b4qCb8lABnzGuAuK2apRpxAhioE1DMgrnjzZ8WyGIHy9nuO639jdy6c8j",
+      "imageHint": "sri lankan man"
+    },
+    {
+      "id": "dilani-silva-portrait",
+      "description": "Professional portrait of a smiling woman who looks like a cultural expert.",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuCkCjVEln38MDT-3-luBITEEi6F0ZDyKGJkbLEqCEmIpc-zc6denSMLg7wWcI3QqVp5kGQ1VvK87dXimNoTlH7l-zx7gNMTYoRVDM8Aix4tBMpjdeeMtIZAHd1wEW6jI5Oc7giR1QoDjtx81Wet53vkvi3uqDmTrWUU36YNyo327foP46TCj434rsLRzJnRaimi_kFXzL-FrNc0-tKE5hBwoDSTBCHZLGKwrJxGLO58mcpGPZqv6aTL0iCKh8GbCM1-kjluXmcEZrJD",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "nuwan-fernando-portrait",
+      "description": "A smiling man with a casual look, could be a safari specialist.",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuArBVfRP0EQS5kUltkNfeDYRFMasC943Y3zVl0J0Ea6dMf7eQmN-N-1rO-9YWjZ7-ovbtlCk1EXIupWl8fZ2d2KILinJ_9xnRYbqToc_lOWQ2F2jPnMVNqKk_hxSW2Qp7n_sgdWt9wNjO_EOh6Sdxkx5gPnoiuoMmpmCZNdCidiJvM7TCTr7ns48FK0GI-P9XEWf0MduM4C6K6HSwZuNlOeTQoQPjWDQPCP5KvYvnYhcrZ3ucogWZmlfry8cl-YpmIa3DdQREm8KQqO",
+      "imageHint": "smiling man"
+    },
+    {
+      "id": "anjali-de-silva-portrait",
+      "description": "Portrait of a smiling woman in bright, natural light.",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuDKn6lfNYHl1nTF7mM5d2bg9F3KuaL9Rk40KhG0na5ZNMsZicLoRKbOMlqcoaAfIPY6V1eO3ByrSJ10hObif8JgHm1HKGOOfWechMlxZJMZO6iv9ZnmGDdWcRy4iE4IcC7KjXmjqlXR-7Y53nYMi-s4udkBqEp0z-aWjW42tZcaYWpL5uYa9IvzqeO4hLV0-kPgcdKK6rRY1MFifbLZkUgOC0d9b6iN7bx7Sq4dF5t8HRhEtKhRcURdBTAgdMwnmy3kwY_JJtnGMlh9",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "about-cta-bg-train",
+      "description": "Train crossing the Nine Arch Bridge in Ella, Sri Lanka.",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBKgd6ef0dQ0kEA_X_4WyFaUcmfKQ3M1owiba4oq62mHvELdX6mdPi3_-UzuY3NYPfdyC_6dVCbkjhVzw8Wlng1VL7bzPL1INU-TPIi6pSOSgppDKz7C5QfEfoPHzYu4HrSudjCu-jl01PIFeMKXgQ0htCmKfP8kfFW5wotfAvIPgo1_Q2sQdXjJKl2mrpGtMU1C9zQbdUEn-8A86jfSyi_dUbhN0G2u3zgq_FFJwqF7c_KgXh3CNVtkHKKrNw-2kjVzbwDciaePuQU",
+      "imageHint": "train sri lanka"
+    },
+    {
+      "id": "about-cta-bg-waterfall",
+      "description": "Sri Lankan waterfall and lush jungle.",
+      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBhUIwhkgyP0qWDL-jj7vjHsW9ZDTv-uKpKgbZoH-UMCokugmI6Bo4trP3eF7cme9zDWyx_28AD8L6eqYAWNtb3USa5yGPeeBhlY_OuTmJRc5niE62z0BW6B1sOqhn_aXlmIZ8-1hQlEUd4AJ20NdYC-gTW3Tn27ptuY95Di0Um2rfrzwb6LCt_eP7fhmwqBAg_xQEm9kTntoPnW-Getx1zeAftMR_sqJWL--_14pF6ZBAIgaebsEGJ7J3iS4EsJzsTYMCRfjCi83ww",
+      "imageHint": "sri lanka waterfall"
     }
   ]
 }
