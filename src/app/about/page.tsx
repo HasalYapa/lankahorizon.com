@@ -23,7 +23,7 @@ export default function AboutPage() {
     const testimonialAvatar = getImage('testimonial-avatar-sarah-jenkins');
 
     return (
-        <main className="w-full">
+        <main className="w-full overflow-x-hidden">
             <header className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
                 <Image
                     src={heroImage.imageUrl}
