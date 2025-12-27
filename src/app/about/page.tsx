@@ -27,17 +27,15 @@ export default function AboutPage() {
     <div className="bg-background text-foreground font-body antialiased font-sans overflow-x-hidden">
       {/* Hero Section */}
       <header className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={heroImage.imageHint}
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
-        </div>
+        <Image
+          src={heroImage.imageUrl}
+          alt={heroImage.description}
+          fill
+          className="object-cover"
+          priority
+          data-ai-hint={heroImage.imageHint}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col gap-6 items-center">
             <h1 className="text-white text-4xl md:text-6xl font-black leading-tight tracking-[-0.033em] font-display">
                 Discover the Real Sri Lanka with <span className="text-primary">LankaHorizon</span>
@@ -292,3 +290,5 @@ export default function AboutPage() {
     </div>
   );
 }
+
+    
