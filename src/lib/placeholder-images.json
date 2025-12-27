@@ -17,14 +17,14 @@
     {
       "id": "southern-coast-adventure-tour",
       "description": "A beautiful sunset over a tropical beach in southern Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "galle sri lanka",
       "data-ai-placeholder": "true"
     },
     {
       "id": "cultural-triangle-explorer-tour",
       "description": "A traditional colorful Sri Lankan mask.",
-      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lankan mask",
       "data-ai-placeholder": "true"
     },
@@ -164,7 +164,7 @@
     {
       "id": "polonnaruwa-destination",
       "description": "Historic statues in Polonnaruwa.",
-      "imageUrl": "https://images.unsplash.com/photo-1627894224956-613c7f0d015c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xvbm5hcnV3YXxlbnwwfHx8fDE3NjY4Mjg5MTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627894224956-613c7f0d015c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xvbm5hcnV3YXxlbnwwfHx8fDE3NjY4Mjg5MTJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "polonnaruwa statues",
       "data-ai-placeholder": "true"
     },
@@ -217,10 +217,10 @@
       "imageHint": "tea plantations mist"
     },
     {
-      "id": "stilt-fishermen",
-      "description": "Sri Lankan people walking on a beach.",
+      "id": "about-stilt-fishermen",
+      "description": "Traditional Sri Lankan stilt fishermen at sunset.",
       "imageUrl": "https://images.unsplash.com/photo-1588264283547-41842878c775?q=80&w=2574&auto=format&fit=crop",
-      "imageHint": "sri lanka people"
+      "imageHint": "stilt fishermen"
     },
     {
       "id": "serene-beach",
@@ -261,7 +261,7 @@
     {
       "id": "about-us-hero-main",
       "description": "A beautiful photo of a beach in Sri Lanka with palm trees and clear blue water.",
-      "imageUrl": "https://images.unsplash.com/photo-1728456995339-2e1bfdb0edf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMXx8c3JpJTIwbGFua2ElMjBwZW9wbGV8ZW58MHx8fHwxNzY2Nzk0MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1588264283547-41842878c775?q=80&w=2574&auto=format&fit=crop",
       "imageHint": "sri lanka people"
     },
     {
@@ -269,12 +269,6 @@
       "description": "Lush green Sri Lankan tea plantations in the mist.",
       "imageUrl": "https://images.unsplash.com/photo-1549492423-400259a21914?q=80&w=2574&auto=format&fit=crop",
       "imageHint": "lush green"
-    },
-    {
-      "id": "about-stilt-fishermen",
-      "description": "Traditional Sri Lankan stilt fishermen at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1728456995339-2e1bfdb0edf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMXx8c3JpJTIwbGFua2ElMjBwZW9wbGV8ZW58MHx8fHwxNzY2Nzk0MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "stilt fishermen"
     },
     {
       "id": "about-sigiriya-rock",
@@ -290,9 +284,9 @@
     },
     {
       "id": "about-cta-bg",
-      "description": "A train crossing the Nine Arch Bridge in Ella, Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1523975862609-33543b49e9c8?q=80&w=2670&auto=format&fit=crop",
-      "imageHint": "sri lanka train"
+      "description": "A stunning, vibrant sunset over a calm Sri Lankan beach.",
+      "imageUrl": "https://images.unsplash.com/photo-1531201890865-fb64780d16e9?q=80&w=2592&auto=format&fit=crop",
+      "imageHint": "sri lanka sunset"
     }
   ]
 }
