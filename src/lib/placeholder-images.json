@@ -31,7 +31,7 @@
     {
       "id": "highlands-and-wildlife-tour",
       "description": "A leopard in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "wildlife sri lanka",
       "data-ai-placeholder": "true"
     },
@@ -45,14 +45,14 @@
     {
       "id": "testimonial-avatar-2",
       "description": "Avatar for a smiling woman.",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1559855603-ce4c8f480d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2NzE1MzUxfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1559855603-ce4c8f480d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2NzE1MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman smiling",
       "data-ai-placeholder": "true"
     },
     {
       "id": "testimonial-avatar-3",
       "description": "Avatar for a family.",
-      "imageUrl": "https://images.unsplash.com/photo-1602255680702-c47261041a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYW1pbHklMjBwaG90b3xlbnwwfHx8fDE3NjY4MDg4ODl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1602255680702-c47261041a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYW1pbHklMjBwaG90b3xlbnwwfHx8fDE3NjY4MDg4ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "family photo",
       "data-ai-placeholder": "true"
     },
@@ -94,7 +94,7 @@
     {
       "id": "nine-arch-bridge-card",
       "description": "Famous Nine Arch Bridge in Ella Sri Lanka with train passing",
-      "imageUrl": "https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcmklMjBsYW5rYSUyMHRyYWlufGVufDB8fHx8MTc2Njc2MzI5Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcmklMjBsYW5rYSUyMHRyYWlufGVufDB8fHx8MTc2Njc2MzI5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka train",
       "data-ai-placeholder": "true"
     },
@@ -205,14 +205,14 @@
     },
     {
       "id": "about-hero-bg-new",
-      "description": "Lush green Sri Lankan tea plantations in the mist.",
-      "imageUrl": "https://images.unsplash.com/photo-1420593248178-d88870618ca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXNoJTIwZ3JlZW58ZW58MHx8fHwxNzY2ODAzNTQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "lush green"
+      "description": "Sunlight filtering through trees in a forest.",
+      "imageUrl": "/uploads/sun-light-176638_1920.jpg",
+      "imageHint": "sunlight forest"
     },
     {
       "id": "about-stilt-fishermen",
       "description": "Traditional Sri Lankan stilt fishermen at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1765115393275-e6f3eb71628c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1765115393275-e6f3eb71628c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "stilt fishermen"
     },
     {
@@ -247,14 +247,14 @@
     },
     {
       "id": "about-cta-bg-train",
-      "description": "Train crossing the Nine Arch Bridge in Ella, Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1709976882631-e00bb1cbcb77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8c3JpJTIwbGFua2ElMjBmb3Jlc3R8ZW58MHx8fHwxNzY2ODAyNjY3fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Train traveling through a lush green forest in Sri Lanka.",
+      "imageUrl": "https://images.unsplash.com/photo-1709976882631-e00bb1cbcb77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8c3JpJTIwbGFua2ElMjBmb3Jlc3R8ZW58MHx8fHwxNzY2ODAyNjY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka forest"
     },
     {
       "id": "testimonial-avatar-sarah-jenkins",
       "description": "Avatar for Sarah Jenkins",
-      "imageUrl": "https://images.unsplash.com/photo-1612994451093-c6791c8989cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzY2Nzc5MDMzfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1612994451093-c6791c8989cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzY2Nzc5MDMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "smiling woman"
     },
     {
