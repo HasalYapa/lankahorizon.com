@@ -24,7 +24,7 @@ export default function AboutPage() {
   const ctaBackgroundImage = getImage('cta-background-train');
 
   return (
-    <div className="bg-background text-foreground font-body antialiased font-sans">
+    <div className="bg-background text-foreground font-body antialiased font-sans overflow-x-hidden">
       {/* Hero Section */}
       <header className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -187,7 +187,7 @@ export default function AboutPage() {
           {/* Member 1 */}
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
-              <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
+              <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300 relative">
                 <Image width={160} height={160} alt={kumaraPereraImage.description} className="w-full h-full object-cover" data-ai-hint={kumaraPereraImage.imageHint} src={kumaraPereraImage.imageUrl}/>
               </div>
               <div className="absolute bottom-0 right-0 bg-primary text-foreground p-2 rounded-full shadow-lg">
@@ -202,7 +202,7 @@ export default function AboutPage() {
           {/* Member 2 */}
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
-              <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
+              <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300 relative">
                 <Image width={160} height={160} alt={dilaniSilvaImage.description} className="w-full h-full object-cover" data-ai-hint={dilaniSilvaImage.imageHint} src={dilaniSilvaImage.imageUrl}/>
               </div>
             </div>
@@ -214,7 +214,7 @@ export default function AboutPage() {
           {/* Member 3 */}
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
-              <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
+              <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300 relative">
                 <Image width={160} height={160} alt={nuwanFernandoImage.description} className="w-full h-full object-cover" data-ai-hint={nuwanFernandoImage.imageHint} src={nuwanFernandoImage.imageUrl}/>
               </div>
             </div>
@@ -226,7 +226,7 @@ export default function AboutPage() {
           {/* Member 4 */}
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
-              <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
+              <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300 relative">
                 <Image width={160} height={160} alt={anjaliDeSilvaImage.description} className="w-full h-full object-cover" data-ai-hint={anjaliDeSilvaImage.imageHint} src={anjaliDeSilvaImage.imageUrl}/>
               </div>
             </div>
@@ -248,7 +248,9 @@ export default function AboutPage() {
               "We had the most amazing honeymoon thanks to LankaHorizon. The itinerary was perfect, balancing adventure with relaxation. Our driver, Kumara, felt like family by the end of the trip!"
           </p>
           <div className="flex items-center justify-center gap-4">
-            <Image width={48} height={48} alt={reviewerAvatarImage.description} className="w-12 h-12 rounded-full object-cover border-2 border-primary" data-ai-hint={reviewerAvatarImage.imageHint} src={reviewerAvatarImage.imageUrl}/>
+            <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-primary">
+              <Image width={48} height={48} alt={reviewerAvatarImage.description} className="object-cover" data-ai-hint={reviewerAvatarImage.imageHint} src={reviewerAvatarImage.imageUrl}/>
+            </div>
             <div className="text-left">
               <p className="font-bold text-foreground dark:text-white">Sarah Jenkins</p>
               <p className="text-sm text-muted-foreground dark:text-gray-400">United Kingdom</p>
