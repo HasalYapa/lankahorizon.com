@@ -1,3 +1,4 @@
+
 'use client';
 import { useState } from 'react';
 import type { Metadata } from 'next';
@@ -113,7 +114,7 @@ export default function ToursPage() {
           />
         </div>
         <div className="relative z-20 max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-block py-1 px-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-primary font-medium text-xs uppercase tracking-wider mb-4">
+          <span className="inline-block py-1 px-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-primary font-medium text-xs uppercase tracking-wider mb-4 mt-8 sm:mt-0">
             Best Travel Agency 2024
           </span>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-white leading-tight tracking-tight mb-6">
