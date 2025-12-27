@@ -31,7 +31,7 @@
     {
       "id": "highlands-and-wildlife-tour",
       "description": "A leopard in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "wildlife sri lanka",
       "data-ai-placeholder": "true"
     },
@@ -73,21 +73,21 @@
     {
       "id": "kandy-ella-train",
       "description": "Train moving through lush green tea plantations in Sri Lanka",
-      "imageUrl": "https://images.unsplash.com/photo-1665849050430-5e8c16bacf7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keXxlbnwwfHx8fDE3NjY3NjU5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1665849050430-5e8c16bacf7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keXxlbnwwfHx8fDE3NjY3NjU5MDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka train",
       "data-ai-placeholder": "true"
     },
     {
       "id": "mirissa-beach",
       "description": "A stunning view of the iconic Parrot Rock in Mirissa, Sri Lanka, with waves crashing against the shore at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
     {
       "id": "yala-safari",
       "description": "Elephants gathering at a national park in Sri Lanka",
-      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "elephant safari",
       "data-ai-placeholder": "true"
     },
@@ -150,7 +150,7 @@
     {
       "id": "yala-national-park-destination",
       "description": "An elephant in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "yala national park",
       "data-ai-placeholder": "true"
     },
@@ -206,7 +206,7 @@
     {
       "id": "hikkaduwa-destination",
       "description": "Coral reefs in Hikkaduwa.",
-      "imageUrl": "https://images.unsplash.com/photo-1593539929842-861e670e176b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHzoaWtrYWR1d2F8ZW58MHx8fHwxNzY2ODI5MDg5fDA&ixlib_rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1593539929842-861e670e176b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHzoaWtrYWR1d2F8ZW58MHx8fHwxNzY2ODI5MDg5fDA&ixlib_rb_4.1.0&q=80&w=1080",
       "imageHint": "hikkaduwa coral",
       "data-ai-placeholder": "true"
     },
@@ -261,8 +261,38 @@
     {
       "id": "about-us-hero-main",
       "description": "A beautiful photo of a beach in Sri Lanka with palm trees and clear blue water.",
-      "imageUrl": "https://images.unsplash.com/photo-1588264283547-41842878c775?q=80&w=2574&auto=format&fit=crop",
-      "imageHint": "sri lanka beach"
+      "imageUrl": "https://images.unsplash.com/photo-1728456995339-2e1bfdb0edf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMXx8c3JpJTIwbGFua2ElMjBwZW9wbGV8ZW58MHx8fHwxNzY2Nzk0MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sri lanka people"
+    },
+    {
+      "id": "about-hero-bg",
+      "description": "Lush green Sri Lankan tea plantations in the mist.",
+      "imageUrl": "https://images.unsplash.com/photo-1549492423-400259a21914?q=80&w=2574&auto=format&fit=crop",
+      "imageHint": "lush green"
+    },
+    {
+      "id": "about-stilt-fishermen",
+      "description": "Traditional Sri Lankan stilt fishermen at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1728456995339-2e1bfdb0edf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMXx8c3JpJTIwbGFua2ElMjBwZW9wbGV8ZW58MHx8fHwxNzY2Nzk0MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stilt fishermen"
+    },
+    {
+      "id": "about-sigiriya-rock",
+      "description": "Sigiriya rock fortress, an ancient ruin in the jungle.",
+      "imageUrl": "https://images.unsplash.com/photo-1595130761245-7a6f29633633?q=80&w=2574&auto=format&fit=crop",
+      "imageHint": "sigiriya rock"
+    },
+    {
+      "id": "about-reviewer-avatar",
+      "description": "Portrait of a smiling woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?q=80&w=512&auto=format&fit=crop",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "about-cta-bg",
+      "description": "A train crossing the Nine Arch Bridge in Ella, Sri Lanka.",
+      "imageUrl": "https://images.unsplash.com/photo-1523975862609-33543b49e9c8?q=80&w=2670&auto=format&fit=crop",
+      "imageHint": "sri lanka train"
     }
   ]
 }
