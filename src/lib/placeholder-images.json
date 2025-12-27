@@ -38,7 +38,7 @@
     {
       "id": "testimonial-avatar-1",
       "description": "Avatar for a happy couple.",
-      "imageUrl": "https://images.unsplash.com/photo-1541679368093-5c967ac6de11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMGNvdXBsZXxlbnwwfHx8fDE3NjY2NjgzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1541679368093-5c967ac6de11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMGNvdXBsZXxlbnwwfHx8fDE3NjY2NjgzMDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "happy couple",
       "data-ai-placeholder": "true"
     },
@@ -143,7 +143,7 @@
     {
       "id": "mirissa-destination",
       "description": "Mirissa beach with Parrot Rock.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
@@ -157,7 +157,7 @@
     {
       "id": "anuradhapura-destination",
       "description": "Ancient ruins in Anuradhapura.",
-      "imageUrl": "https://images.unsplash.com/photo-1627763071302-f016c053351d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbnVyYWRoYXB1cmF8ZW58MHx8fHwxNzY2ODI4ODc1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627763071302-f016c053351d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbnVyYWRoYXB1cmF8ZW58MHx8fHwxNzY2ODI4ODc1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "anuradhapura ruins",
       "data-ai-placeholder": "true"
     },
@@ -297,7 +297,7 @@
     {
       "id": "about-cta-bg-waterfall",
       "description": "Sri Lankan waterfall and lush jungle.",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuBhUIwhkgyP0qWDL-jj7vjHsW9ZDTv-uKpKgbZoH-UMCokugmI6Bo4trP3eF7cme9zDWyx_28AD8L6eqYAWNtb3USa5yGPeeBhlY_OuTmJRc5niE62z0BW6B1sOqhn_aXlmIZ8-1hQlEUd4AJ20NdYC-gTW3Tn27ptuY95Di0Um2rfrzwb6LCt_eP7fhmwqBAg_xQEm9kTntoPnW-Getx1zeAftMR_sqJWL--_14pF6ZBAIgaebsEGJ7J3iS4EsJzsTYMCRfjCi83ww",
+      "imageUrl": "https://images.unsplash.com/photo-1535744539915-24adcde39c11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmb3Jlc3QlMjBzcmklMjBsYW5rYXxlbnwwfHx8fDE3NjY3NjgzNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka waterfall"
     }
   ]
