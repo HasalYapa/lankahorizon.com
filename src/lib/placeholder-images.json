@@ -24,7 +24,7 @@
     {
       "id": "cultural-triangle-explorer-tour",
       "description": "A traditional colorful Sri Lankan mask.",
-      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lankan mask",
       "data-ai-placeholder": "true"
     },
@@ -212,7 +212,7 @@
     {
       "id": "about-stilt-fishermen",
       "description": "Traditional Sri Lankan stilt fishermen at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1765115393275-e6f3eb71628c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1765115393275-e6f3eb71628c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "stilt fishermen"
     },
     {
@@ -248,13 +248,13 @@
     {
       "id": "about-cta-bg-train",
       "description": "Train crossing the Nine Arch Bridge in Ella, Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1665304010945-86c4f62ed70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0cmFpbiUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgwMzU0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "train sri lanka"
+      "imageUrl": "https://images.unsplash.com/photo-1709976882631-e00bb1cbcb77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8c3JpJTIwbGFua2ElMjBmb3Jlc3R8ZW58MHx8fHwxNzY2ODAyNjY3fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "sri lanka forest"
     },
     {
       "id": "testimonial-avatar-sarah-jenkins",
       "description": "Avatar for Sarah Jenkins",
-      "imageUrl": "https://images.unsplash.com/photo-1612994451093-c6791c8989cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzY2Nzc5MDMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1612994451093-c6791c8989cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzY2Nzc5MDMzfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "smiling woman"
     },
     {
