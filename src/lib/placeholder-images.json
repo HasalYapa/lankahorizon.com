@@ -143,28 +143,28 @@
     {
       "id": "mirissa-destination",
       "description": "Mirissa beach with Parrot Rock.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
     {
       "id": "yala-national-park-destination",
       "description": "An elephant in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "yala national park",
       "data-ai-placeholder": "true"
     },
     {
       "id": "anuradhapura-destination",
       "description": "Ancient ruins in Anuradhapura.",
-      "imageUrl": "https://images.unsplash.com/photo-1627763071302-f016c053351d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbnVyYWRoYXB1cmF8ZW58MHx8fHwxNzY2ODI4ODc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627763071302-f016c053351d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbnVyYWRoYXB1cmF8ZW58MHx8fHwxNzY2ODI4ODc1fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "anuradhapura ruins",
       "data-ai-placeholder": "true"
     },
     {
       "id": "polonnaruwa-destination",
       "description": "Historic statues in Polonnaruwa.",
-      "imageUrl": "https://images.unsplash.com/photo-1627894224956-613c7f0d015c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xvbm5hcnV3YXxlbnwwfHx8fDE3NjY4Mjg5MTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627894224956-613c7f0d015c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xvbm5hcnV3YXxlbnwwfHx8fDE3NjY4Mjg5MTJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "polonnaruwa statues",
       "data-ai-placeholder": "true"
     },
@@ -178,7 +178,7 @@
     {
       "id": "horton-plains-destination",
       "description": "World's End at Horton Plains.",
-      "imageUrl": "https://images.unsplash.com/photo-1601691233809-58807954e38c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3J0b24lMjBwbGFpbnN8ZW58MHx8fHwxNzY2ODI4OTc4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1601691233809-58807954e38c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3J0b24lMjBwbGFpbnN8ZW58MHx8fHwxNzY2ODI4OTc4fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "horton plains",
       "data-ai-placeholder": "true"
     },
@@ -192,7 +192,7 @@
     {
       "id": "bentota-destination",
       "description": "Bentota river safari.",
-      "imageUrl": "https://images.unsplash.com/photo-1626242548834-58342d815779?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiZW50b3RhfGVufDB8fHx8MTc2NjgyOTAzNnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1626242548834-58342d815779?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiZW50b3RhfGVufDB8fHx8MTc2NjgyOTAzNnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "bentota river",
       "data-ai-placeholder": "true"
     },
@@ -218,9 +218,9 @@
     },
     {
       "id": "stilt-fishermen",
-      "description": "A group of smiling Sri Lankan people.",
-      "imageUrl": "https://images.unsplash.com/photo-1728456995339-2e1bfdb0edf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMXx8c3JpJTIwbGFua2ElMjBwZW9wbGV8ZW58MHx8fHwxNzY2Nzk0MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sri lankan people"
+      "description": "Traditional stilt fishermen in Sri Lanka at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1588264283547-41842878c775?q=80&w=2574&auto=format&fit=crop",
+      "imageHint": "stilt fishermen"
     },
     {
       "id": "serene-beach",
@@ -261,7 +261,7 @@
     {
       "id": "about-us-hero-2",
       "description": "A beautiful photo of a beach in Sri Lanka with palm trees and clear blue water.",
-      "imageUrl": "https://images.unsplash.com/photo-1593361184993-35639b28a883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1593361184993-35639b28a883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka beach"
     }
   ]

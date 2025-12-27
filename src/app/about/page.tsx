@@ -2,7 +2,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Mail, Phone, MapPin, Twitter, Facebook, Instagram, Compass } from 'lucide-react';
+import { Mail, Phone, MapPin, Twitter, Facebook, Instagram, Compass, ArrowRight, Star, User, Shield, Award } from 'lucide-react';
 import { WHATSAPP_LINK } from '@/lib/constants';
 import { getImage } from '@/lib/placeholder-images';
 
@@ -27,9 +27,7 @@ export default function AboutPage() {
     <div className="bg-background dark:bg-background-dark text-foreground font-body antialiased font-sans">
       {/* Hero Section */}
       <header className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 z-0"
-        >
+        <div className="absolute inset-0 z-0">
           <Image
             src={heroImage.imageUrl}
             alt={heroImage.description}
@@ -48,7 +46,7 @@ export default function AboutPage() {
                 We are more than just a travel agency; we are your local friends in paradise, ready to show you the hidden wonders of our island home.
             </p>
             <Link href="/tours" className="mt-4 flex cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-primary text-foreground text-base font-bold transition transform hover:scale-105">
-                Learn More
+                Explore Our Tours
             </Link>
         </div>
       </header>
@@ -57,12 +55,12 @@ export default function AboutPage() {
       <section className="relative -mt-16 z-20 px-4 mb-20">
         <div className="max-w-6xl mx-auto bg-card dark:bg-[#1a2e1d] rounded-xl shadow-xl p-8 flex flex-wrap justify-around gap-8 border border-border dark:border-[#2a4e2d]">
           <div className="flex flex-col items-center text-center">
-            <p className="text-primary tracking-tight text-4xl font-black leading-tight">5000+</p>
+            <p className="text-primary tracking-tight text-4xl font-black leading-tight">5,000+</p>
             <p className="text-foreground dark:text-gray-300 text-sm font-medium uppercase tracking-wide mt-1">Happy Travelers</p>
           </div>
           <div className="w-px h-16 bg-gray-200 dark:bg-gray-700 hidden md:block"></div>
           <div className="flex flex-col items-center text-center">
-            <p className="text-primary tracking-tight text-4xl font-black leading-tight">10</p>
+            <p className="text-primary tracking-tight text-4xl font-black leading-tight">10+</p>
             <p className="text-foreground dark:text-gray-300 text-sm font-medium uppercase tracking-wide mt-1">Years Experience</p>
           </div>
           <div className="w-px h-16 bg-gray-200 dark:bg-gray-700 hidden md:block"></div>
@@ -90,10 +88,6 @@ export default function AboutPage() {
             <p className="text-muted-foreground dark:text-gray-300 text-lg leading-relaxed">
                 We believe in travel that respects nature and uplifts local communities. Whether you're seeking the thrill of a leopard safari or the serenity of a hilltop temple, we craft experiences that leave footprints in your heart, not on the environment.
             </p>
-            <button className="mt-4 flex items-center gap-2 text-foreground dark:text-white font-bold text-lg hover:text-primary transition-colors group">
-              <span>Read our full story</span>
-              <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-            </button>
           </div>
           <div className="flex-1 grid grid-cols-2 gap-4 w-full h-full relative">
               <div className="col-span-1 relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg transform hover:rotate-1 transition duration-500">
@@ -139,7 +133,7 @@ export default function AboutPage() {
             {/* Card 1 */}
             <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-primary group-hover:text-foreground text-3xl transition-colors">map</span>
+                <Map className="text-primary group-hover:text-foreground text-3xl transition-colors" />
               </div>
               <h3 className="text-foreground dark:text-white text-xl font-bold mb-3">Expert Local Knowledge</h3>
               <p className="text-muted-foreground dark:text-gray-300 text-sm leading-relaxed">
@@ -149,7 +143,7 @@ export default function AboutPage() {
             {/* Card 2 */}
             <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-primary group-hover:text-foreground text-3xl transition-colors">edit_note</span>
+                <Award className="text-primary group-hover:text-foreground text-3xl transition-colors" />
               </div>
               <h3 className="text-foreground dark:text-white text-xl font-bold mb-3">Tailor-Made Itineraries</h3>
               <p className="text-muted-foreground dark:text-gray-300 text-sm leading-relaxed">
@@ -159,7 +153,7 @@ export default function AboutPage() {
             {/* Card 3 */}
             <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-primary group-hover:text-foreground text-3xl transition-colors">eco</span>
+                <Shield className="text-primary group-hover:text-foreground text-3xl transition-colors" />
               </div>
               <h3 className="text-foreground dark:text-white text-xl font-bold mb-3">Sustainable Travel</h3>
               <p className="text-muted-foreground dark:text-gray-300 text-sm leading-relaxed">
@@ -169,7 +163,7 @@ export default function AboutPage() {
             {/* Card 4 */}
             <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <span className="material-symbols-outlined text-primary group-hover:text-foreground text-3xl transition-colors">support_agent</span>
+                <User className="text-primary group-hover:text-foreground text-3xl transition-colors" />
               </div>
               <h3 className="text-foreground dark:text-white text-xl font-bold mb-3">24/7 Support</h3>
               <p className="text-muted-foreground dark:text-gray-300 text-sm leading-relaxed">
@@ -187,17 +181,17 @@ export default function AboutPage() {
             <h2 className="text-foreground dark:text-white text-3xl md:text-4xl font-black mb-4 font-display">Meet Our Local Guides</h2>
             <p className="text-muted-foreground dark:text-gray-400">Passionate individuals who make your journey unforgettable.</p>
           </div>
-          <a className="text-primary font-bold hover:underline flex items-center gap-1" href="#">See All Team <span className="material-symbols-outlined text-sm">arrow_forward</span></a>
+          <a className="text-primary font-bold hover:underline flex items-center gap-1" href="#">See All Team <ArrowRight className="h-4 w-4" /></a>
         </div>
         <div className="flex flex-wrap justify-center gap-10">
           {/* Member 1 */}
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
-                <Image width="160" height="160" alt={kumaraPereraImage.description} className="w-full h-full object-cover" data-ai-hint={kumaraPereraImage.imageHint} src={kumaraPereraImage.imageUrl}/>
+                <Image width={160} height={160} alt={kumaraPereraImage.description} className="w-full h-full object-cover" data-ai-hint={kumaraPereraImage.imageHint} src={kumaraPereraImage.imageUrl}/>
               </div>
               <div className="absolute bottom-0 right-0 bg-primary text-foreground p-2 rounded-full shadow-lg">
-                <span className="material-symbols-outlined text-sm font-bold">star</span>
+                <Star className="h-4 w-4 fill-current" />
               </div>
             </div>
             <div>
@@ -209,7 +203,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
-                <Image width="160" height="160" alt={dilaniSilvaImage.description} className="w-full h-full object-cover" data-ai-hint={dilaniSilvaImage.imageHint} src={dilaniSilvaImage.imageUrl}/>
+                <Image width={160} height={160} alt={dilaniSilvaImage.description} className="w-full h-full object-cover" data-ai-hint={dilaniSilvaImage.imageHint} src={dilaniSilvaImage.imageUrl}/>
               </div>
             </div>
             <div>
@@ -221,7 +215,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
-                <Image width="160" height="160" alt={nuwanFernandoImage.description} className="w-full h-full object-cover" data-ai-hint={nuwanFernandoImage.imageHint} src={nuwanFernandoImage.imageUrl}/>
+                <Image width={160} height={160} alt={nuwanFernandoImage.description} className="w-full h-full object-cover" data-ai-hint={nuwanFernandoImage.imageHint} src={nuwanFernandoImage.imageUrl}/>
               </div>
             </div>
             <div>
@@ -233,7 +227,7 @@ export default function AboutPage() {
           <div className="flex flex-col items-center gap-4 text-center group">
             <div className="relative">
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-transparent group-hover:border-primary transition-colors duration-300">
-                <Image width="160" height="160" alt={anjaliDeSilvaImage.description} className="w-full h-full object-cover" data-ai-hint={anjaliDeSilvaImage.imageHint} src={anjaliDeSilvaImage.imageUrl}/>
+                <Image width={160} height={160} alt={anjaliDeSilvaImage.description} className="w-full h-full object-cover" data-ai-hint={anjaliDeSilvaImage.imageHint} src={anjaliDeSilvaImage.imageUrl}/>
               </div>
             </div>
             <div>
@@ -247,12 +241,14 @@ export default function AboutPage() {
       {/* Testimonial Slider / Highlight */}
       <section className="py-16 bg-primary/5 dark:bg-[#142616] mt-10">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <span className="material-symbols-outlined text-primary text-6xl mb-6">format_quote</span>
-          <p className="text-xl md:text-2xl font-medium leading-relaxed italic text-foreground dark:text-gray-200 mb-8">
+          <svg className="mx-auto h-12 w-12 text-primary" fill="currentColor" viewBox="0 0 48 48" aria-hidden="true">
+             <path d="M12.94,22.31a3.17,3.17,0,0,0-4,2.37l-2,10.27a3.17,3.17,0,0,0,3.12,3.94H16.2a3.17,3.17,0,0,0,4-2.37l2-10.27a3.17,3.17,0,0,0-3.12-3.94Zm20.2,0a3.17,3.17,0,0,0-4,2.37l-2,10.27a3.17,3.17,0,0,0,3.12,3.94h6.14a3.17,3.17,0,0,0,4-2.37l2-10.27a3.17,3.17,0,0,0-3.12-3.94Z"/>
+          </svg>
+          <p className="text-xl md:text-2xl font-medium leading-relaxed italic text-foreground dark:text-gray-200 my-8">
               "We had the most amazing honeymoon thanks to LankaHorizon. The itinerary was perfect, balancing adventure with relaxation. Our driver, Kumara, felt like family by the end of the trip!"
           </p>
           <div className="flex items-center justify-center gap-4">
-            <Image width="48" height="48" alt={reviewerAvatarImage.description} className="w-12 h-12 rounded-full object-cover border-2 border-primary" data-ai-hint={reviewerAvatarImage.imageHint} src={reviewerAvatarImage.imageUrl}/>
+            <Image width={48} height={48} alt={reviewerAvatarImage.description} className="w-12 h-12 rounded-full object-cover border-2 border-primary" data-ai-hint={reviewerAvatarImage.imageHint} src={reviewerAvatarImage.imageUrl}/>
             <div className="text-left">
               <p className="font-bold text-foreground dark:text-white">Sarah Jenkins</p>
               <p className="text-sm text-muted-foreground dark:text-gray-400">United Kingdom</p>
