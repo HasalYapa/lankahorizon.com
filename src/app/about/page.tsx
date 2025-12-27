@@ -24,7 +24,7 @@ export default function AboutPage() {
   const ctaBackgroundImage = getImage('cta-background-train');
 
   return (
-    <div className="bg-background dark:bg-background-dark text-foreground font-body antialiased font-sans">
+    <div className="bg-background text-foreground font-body antialiased font-sans">
       {/* Hero Section */}
       <header className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
