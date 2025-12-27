@@ -3,7 +3,7 @@
     {
       "id": "hero-background",
       "description": "A stunning aerial view of a Sri Lankan beach with palm trees and turquoise water.",
-      "imageUrl": "https://images.unsplash.com/photo-1531201890865-fb64780d16e9?q=80&w=2574&auto=format&fit=crop",
+      "imageUrl": "https://images.unsplash.com/photo-1520052204342-d4c4b57d1920?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka beach",
       "data-ai-placeholder": "true"
     },
@@ -80,7 +80,7 @@
     {
       "id": "mirissa-beach",
       "description": "A stunning view of the iconic Parrot Rock in Mirissa, Sri Lanka, with waves crashing against the shore at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
@@ -115,7 +115,7 @@
     {
       "id": "yala-destination",
       "description": "A leopard in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1705936981595-dea87508ce84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZW9wYXJkJTIweWFsYXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705936981595-dea87508ce84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZW9wYXJkJTIweWFsYXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "leopard yala",
       "data-ai-placeholder": "true"
     },
@@ -206,19 +206,19 @@
     {
       "id": "about-hero-bg-new",
       "description": "Lush green Sri Lankan tea plantations in the mist.",
-      "imageUrl": "https://images.unsplash.com/photo-1503543100709-46d05b976bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bHVzaCUyMGdyZWVufGVufDB8fHx8MTc2NjgwMzU0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1420593248178-d88870618ca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXNoJTIwZ3JlZW58ZW58MHx8fHwxNzY2ODAzNTQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "lush green"
     },
     {
       "id": "about-stilt-fishermen",
       "description": "Traditional Sri Lankan stilt fishermen at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1690975473320-ae9cefa7df13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1765115393275-e6f3eb71628c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "stilt fishermen"
     },
     {
       "id": "about-sigiriya-rock",
       "description": "Sigiriya rock fortress, an ancient ruin in the jungle.",
-      "imageUrl": "https://images.unsplash.com/photo-1580794749460-76f97b7180d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHJvY2t8ZW58MHx8fHwxNzY2NzUzNTc3fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580803834205-0e64baf9d13d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzaWdpcml5YSUyMHJvY2t8ZW58MHx8fHwxNzY2NzUzNTc3fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sigiriya rock"
     },
     {
@@ -248,13 +248,13 @@
     {
       "id": "about-cta-bg-train",
       "description": "Train crossing the Nine Arch Bridge in Ella, Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1665729305238-8c342cd93597?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0cmFpbiUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgwMzU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1665304010945-86c4f62ed70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0cmFpbiUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgwMzU0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "train sri lanka"
     },
     {
       "id": "testimonial-avatar-sarah-jenkins",
       "description": "Avatar for Sarah Jenkins",
-      "imageUrl": "https://images.unsplash.com/photo-1662850886700-4ec19bd30d11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzY2Nzc5MDMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1612994451093-c6791c8989cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzY2Nzc5MDMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "smiling woman"
     },
     {
