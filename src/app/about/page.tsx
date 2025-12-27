@@ -133,7 +133,7 @@ export default function AboutPage() {
             {/* Card 1 */}
             <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <Map className="text-primary group-hover:text-foreground text-3xl transition-colors" />
+                <MapPin className="text-primary group-hover:text-foreground text-3xl transition-colors" />
               </div>
               <h3 className="text-foreground dark:text-white text-xl font-bold mb-3">Expert Local Knowledge</h3>
               <p className="text-muted-foreground dark:text-gray-300 text-sm leading-relaxed">
