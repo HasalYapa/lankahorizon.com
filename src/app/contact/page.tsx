@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -38,7 +39,7 @@ export default function ContactPage() {
                         </h2>
                     </div>
                     <Button asChild size="lg" className="z-10 mt-4 rounded-full text-base font-bold transition-all transform hover:scale-105 shadow-xl">
-                        <Link href="/custom-itinerary">
+                        <Link href="/destinations">
                             Start Planning
                         </Link>
                     </Button>
