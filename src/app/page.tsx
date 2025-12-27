@@ -7,7 +7,6 @@ import { FeaturedTours } from '@/components/sections/FeaturedTours';
 import { FaqSection } from '@/components/sections/FaqSection';
 
 const destinations = [
-  { name: 'Sigiriya', imageId: 'sigiriya-destination', shortDesc: 'Ancient Rock Fortress' },
   { name: 'Kandy to Ella', imageId: 'kandy-ella-train', shortDesc: 'Scenic Train Ride' },
   { name: 'Mirissa', imageId: 'mirissa-beach', shortDesc: 'South Coast Beaches' },
   { name: 'Yala National Park', imageId: 'yala-safari', shortDesc: 'Safari Adventure' },
