@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getImage } from '@/lib/placeholder-images';
-import { Star, Map, Edit, Leaf, Shield, ArrowRight, CheckCircle, History, Trees, Hiking, Drama, Sailboat, Spa, Users, Handshake, Info, Mail, Phone, Twitter, Facebook, Instagram, Quote, Briefcase, Award } from 'lucide-react';
+import { Star, Map, Edit, Leaf, Shield, ArrowRight, CheckCircle, History, Trees, Mountain, Drama, Sailboat, Spa, Users, Handshake, Info, Mail, Phone, Twitter, Facebook, Instagram, Quote, Briefcase, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
@@ -219,7 +219,7 @@ export default function AboutPage() {
                             <ul className="text-sm text-foreground space-y-1">
                                 <li className="flex items-center gap-2"><History className="text-primary text-base" /> Ancient Cities & Heritage</li>
                                 <li className="flex items-center gap-2"><Drama className="text-primary text-base" /> Local Traditions & Cuisine</li>
-                                <li className="flex items-center gap-2"><Hiking className="text-primary text-base" /> Nature Treks & Scenic Routes</li>
+                                <li className="flex items-center gap-2"><Mountain className="text-primary text-base" /> Nature Treks & Scenic Routes</li>
                             </ul>
                         </div>
                         <Button variant="link" className="mt-4 text-primary text-sm font-medium">
@@ -340,3 +340,5 @@ export default function AboutPage() {
     );
 }
 
+
+    
