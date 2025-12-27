@@ -15,7 +15,7 @@ import type { TourPackage } from '@/lib/types';
 
 
 export default function ToursPage() {
-  const heroImage = getImage('contact-page-hero');
+  const heroImage = getImage('tours-hero-bg');
   const [filteredTours, setFilteredTours] = useState<TourPackage[]>(tourPackages);
   const [activeFilters, setActiveFilters] = useState<Record<string, any>>({});
   
@@ -104,7 +104,7 @@ export default function ToursPage() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-slate-900/90 z-10"></div>
           <Image
-            alt="Stunning aerial view of Sri Lankan coastline with palm trees and blue ocean"
+            alt={heroImage.description}
             src={heroImage.imageUrl}
             fill
             className="object-cover"

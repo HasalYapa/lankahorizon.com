@@ -17,7 +17,7 @@
     {
       "id": "southern-coast-adventure-tour",
       "description": "A beautiful sunset over a tropical beach in southern Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "galle sri lanka",
       "data-ai-placeholder": "true"
     },
@@ -45,14 +45,14 @@
     {
       "id": "testimonial-avatar-2",
       "description": "Avatar for a smiling woman.",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1559855603-ce4c8f480d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2NzE1MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1559855603-ce4c8f480d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2NzE1MzUxfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "woman smiling",
       "data-ai-placeholder": "true"
     },
     {
       "id": "testimonial-avatar-3",
       "description": "Scenic view of a train in Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1711524890054-6208c801aa21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0cmF2ZWwlMjBzcmklMjBsYW5rYXxlbnwwfHx8fDE3NjY4MTI0MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1711524890054-6208c801aa21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0cmF2ZWwlMjBzcmklMjBsYW5rYXxlbnwwfHx8fDE3NjY4MTI0MjB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "travel sri lanka"
     },
     {
@@ -211,7 +211,7 @@
     {
       "id": "about-stilt-fishermen",
       "description": "Traditional Sri Lankan stilt fishermen at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1765115393275-e6f3eb71628c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1765115393275-e6f3eb71628c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "stilt fishermen"
     },
     {
@@ -267,6 +267,12 @@
       "description": "Map of Colombo, Sri Lanka showing a location",
       "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuD5KUQEnmyPhpDOmzG4Su-vDYe-l6LMwc0mPNnsf0CetM2z_kMupTC3dBURZ1Rkxe3VWc7NmaBKaOUG5YujdwIguXwTlpuQjroLhUxdBOayfz2Vy_zJGUsHgFg887AnAec0YJ17_w7pm2O2f9Zz6IMYi03pPGxg9ZWHKe9Ywy0EtaKeCWLTgygHnEyXBD6E10XHT9RM8HTANfTCiwRsF-9yCRhC0QJ62zl8mSXRgP9Z3qsezzhr43UOh41ttoFDqQ1JnTZp-mACv1MB",
       "imageHint": "colombo map"
+    },
+    {
+      "id": "tours-hero-bg",
+      "description": "Airplane wing over clouds.",
+      "imageUrl": "/uploads/airport-396928_1920.jpg",
+      "imageHint": "airplane flight"
     }
   ]
 }
