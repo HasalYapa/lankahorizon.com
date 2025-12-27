@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getImage } from '@/lib/placeholder-images';
+import { Star, Map, Edit, Leaf, Shield, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About Us - LankaHorizon Travel Company',
@@ -129,7 +130,7 @@ export default function AboutPage() {
                                 <Image alt={kumaraImage.description} className="w-full h-full object-cover" data-ai-hint={kumaraImage.imageHint} src={kumaraImage.imageUrl} width={160} height={160} />
                             </div>
                             <div className="absolute bottom-0 right-0 bg-primary text-card p-2 rounded-full shadow-lg">
-                                <span className="material-symbols-outlined text-sm font-bold">star</span>
+                                <Star className="text-sm font-bold" />
                             </div>
                         </div>
                         <div>
@@ -172,7 +173,7 @@ export default function AboutPage() {
                     </div>
                 </div>
                 <div className="mt-12">
-                    <Link className="text-primary font-bold hover:underline flex items-center gap-1 justify-center" href="#">See All Our Storytellers <span className="material-symbols-outlined text-sm">arrow_forward</span></Link>
+                    <Link className="text-primary font-bold hover:underline flex items-center gap-1 justify-center" href="#">See All Our Storytellers <ArrowRight className="text-sm" /></Link>
                 </div>
             </section>
 
@@ -204,7 +205,7 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
                             <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                                <span className="material-symbols-outlined text-primary group-hover:text-card text-3xl transition-colors">map</span>
+                                <Map className="text-primary group-hover:text-card text-3xl transition-colors" />
                             </div>
                             <h3 className="text-foreground text-xl font-bold mb-3">Expert Local Knowledge</h3>
                             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -213,7 +214,7 @@ export default function AboutPage() {
                         </div>
                         <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
                             <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                                <span className="material-symbols-outlined text-primary group-hover:text-card text-3xl transition-colors">edit_note</span>
+                                <Edit className="text-primary group-hover:text-card text-3xl transition-colors" />
                             </div>
                             <h3 className="text-foreground text-xl font-bold mb-3">Tailor-Made Itineraries</h3>
                             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -222,7 +223,7 @@ export default function AboutPage() {
                         </div>
                         <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
                             <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                                <span className="material-symbols-outlined text-primary group-hover:text-card text-3xl transition-colors">eco</span>
+                                <Leaf className="text-primary group-hover:text-card text-3xl transition-colors" />
                             </div>
                             <h3 className="text-foreground text-xl font-bold mb-3">Sustainable Travel</h3>
                             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -231,7 +232,7 @@ export default function AboutPage() {
                         </div>
                         <div className="group bg-background dark:bg-[#1e3a21] rounded-xl p-8 transition hover:shadow-lg hover:-translate-y-1 border border-transparent hover:border-primary/30">
                             <div className="w-14 h-14 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                                <span className="material-symbols-outlined text-primary group-hover:text-card text-3xl transition-colors">support_agent</span>
+                                <Shield className="text-primary group-hover:text-card text-3xl transition-colors" />
                             </div>
                             <h3 className="text-foreground text-xl font-bold mb-3">24/7 Support</h3>
                             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -272,5 +273,6 @@ export default function AboutPage() {
             </section>
         </main>
     );
+}
 
     
