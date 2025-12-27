@@ -24,21 +24,21 @@
     {
       "id": "cultural-triangle-explorer-tour",
       "description": "A traditional colorful Sri Lankan mask.",
-      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lankan mask",
       "data-ai-placeholder": "true"
     },
     {
       "id": "highlands-and-wildlife-tour",
       "description": "A leopard in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "wildlife sri lanka",
       "data-ai-placeholder": "true"
     },
     {
       "id": "testimonial-avatar-1",
       "description": "Avatar for a happy couple.",
-      "imageUrl": "https://images.unsplash.com/photo-1541679368093-5c967ac6de11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMGNvdXBsZXxlbnwwfHx8fDE3NjY2NjgzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1541679368093-5c967ac6de11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMGNvdXBsZXxlbnwwfHx8fDE3NjY2NjgzMDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "happy couple",
       "data-ai-placeholder": "true"
     },
@@ -66,7 +66,7 @@
     {
       "id": "sigiriya-destination",
       "description": "A stunning, high-resolution photograph of the majestic Sigiriya Rock Fortress in Sri Lanka, viewed from a distance with the lush green jungle surrounding its base and a clear blue sky above.",
-      "imageUrl": "https://images.unsplash.com/photo-1579762499131-38f374530863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgxMDExN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579762499131-38f374530863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgxMDExN3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sigiriya sri lanka",
       "data-ai-placeholder": "true"
     },
@@ -120,13 +120,6 @@
       "data-ai-placeholder": "true"
     },
     {
-      "id": "contact-page-hero",
-      "description": "A tranquil beach scene in Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1531201890865-fb64780d16e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlibrb-4.1.0&q=80&w=1080",
-      "imageHint": "sri lanka beach",
-      "data-ai-placeholder": "true"
-    },
-    {
       "id": "nuwara-eliya-destination",
       "description": "Tea plantations in Nuwara Eliya.",
       "imageUrl": "https://images.unsplash.com/photo-1580202148112-258d5a1639c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxudXdhcmElMjBlbGl5YXxlbnwwfHx8fDE3NjY4Mjg4MDd8MA&ixlib.rb-4.1.0&q=80&w=1080",
@@ -143,14 +136,14 @@
     {
       "id": "mirissa-destination",
       "description": "Mirissa beach with Parrot Rock.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
     {
       "id": "yala-national-park-destination",
       "description": "An elephant in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "yala national park",
       "data-ai-placeholder": "true"
     },
@@ -178,7 +171,7 @@
     {
       "id": "horton-plains-destination",
       "description": "World's End at Horton Plains.",
-      "imageUrl": "https://images.unsplash.com/photo-1601691233809-58807954e38c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3J0b24lMjBwbGFpbnN8ZW58MHx8fHwxNzY2ODI4OTc4fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1601691233809-58807954e38c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3J0b24lMjBwbGFpbnN8ZW58MHx8fHwxNzY2ODI4OTc4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "horton plains",
       "data-ai-placeholder": "true"
     },
@@ -213,13 +206,13 @@
     {
       "id": "about-hero-bg",
       "description": "Lush green Sri Lankan tea plantations in the mist.",
-      "imageUrl": "https://images.unsplash.com/photo-1573689705653-0ad8948b17a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsdXNoJTIwZ3JlZW58ZW58MHx8fHwxNzY2ODAzNTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1573689705653-0ad8948b17a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsdXNoJTIwZ3JlZW58ZW58MHx8fHwxNzY2ODAzNTQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "lush green"
     },
     {
       "id": "about-stilt-fishermen",
       "description": "Traditional Sri Lankan stilt fishermen at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1718714882426-0d99986491d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1718714882426-0d99986491d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdGlsdCUyMGZpc2hlcm1lbnxlbnwwfHx8fDE3NjY4MDM1NDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "stilt fishermen"
     },
     {
@@ -261,7 +254,7 @@
     {
       "id": "about-cta-bg-waterfall",
       "description": "Sri Lankan waterfall and lush jungle.",
-      "imageUrl": "https://images.unsplash.com/photo-1709976882631-e00bb1cbcb77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8c3JpJTIwbGFua2ElMjBmb3Jlc3R8ZW58MHx8fHwxNzY2ODAyNjY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1709976882631-e00bb1cbcb77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8c3JpJTIwbGFua2ElMjBmb3Jlc3R8ZW58MHx8fHwxNzY2ODAyNjY3fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka waterfall"
     },
     {
