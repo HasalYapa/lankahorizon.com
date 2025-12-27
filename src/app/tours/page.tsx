@@ -278,7 +278,7 @@ export default function ToursPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
                 <Button asChild>
-                    <Link href="/custom-itinerary" className="bg-primary text-primary-foreground hover:bg-green-400 px-8 py-4 rounded-full font-bold text-base transition-all shadow-lg shadow-green-900/20 flex items-center justify-center gap-2">
+                    <Link href="/destinations" className="bg-primary text-primary-foreground hover:bg-green-400 px-8 py-4 rounded-full font-bold text-base transition-all shadow-lg shadow-green-900/20 flex items-center justify-center gap-2">
                         <Calendar />
                         Customize My Trip
                     </Link>
