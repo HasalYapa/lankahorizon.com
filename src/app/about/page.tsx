@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getImage } from '@/lib/placeholder-images';
-import { Star, Map, Edit, Leaf, Shield, ArrowRight, CheckCircle, History, Trees, Mountain, Drama, Sailboat, Lotus, Users, Handshake, Info, Mail, Phone, Twitter, Facebook, Instagram, Quote, Briefcase, Award } from 'lucide-react';
+import { Star, Map, Edit, Leaf, Shield, ArrowRight, CheckCircle, History, Trees, Mountain, Drama, Sailboat, Sprout, Users, Handshake, Info, Mail, Phone, Twitter, Facebook, Instagram, Quote, Briefcase, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
@@ -239,7 +239,7 @@ export default function AboutPage() {
                             <h4 className="text-xs font-semibold uppercase text-muted-foreground mb-2">Specializations:</h4>
                             <ul className="text-sm text-foreground space-y-1">
                                 <li className="flex items-center gap-2"><Users className="text-primary text-base" /> Family-Friendly Itineraries</li>
-                                <li className="flex items-center gap-2"><Lotus className="text-primary text-base" /> Yoga & Ayurvedic Retreats</li>
+                                <li className="flex items-center gap-2"><Sprout className="text-primary text-base" /> Yoga & Ayurvedic Retreats</li>
                                 <li className="flex items-center gap-2"><Sailboat className="text-primary text-base" /> Coastal & Beach Experiences</li>
                             </ul>
                         </div>
@@ -338,5 +338,4 @@ export default function AboutPage() {
             </section>
         </main>
     );
-
-    
+</main></body></html>
