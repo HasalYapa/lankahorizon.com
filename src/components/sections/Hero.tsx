@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -16,7 +17,7 @@ export function Hero() {
   return (
     <section className="relative pt-20 min-h-screen flex flex-col justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full z-0">
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-background dark:to-background-dark z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-background dark:to-background-dark z-10"></div>
             <Image
                 src={heroImage.imageUrl}
                 alt={heroImage.description}
