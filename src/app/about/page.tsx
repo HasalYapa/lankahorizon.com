@@ -338,4 +338,4 @@ export default function AboutPage() {
             </section>
         </main>
     );
-</main></body></html>
+}
