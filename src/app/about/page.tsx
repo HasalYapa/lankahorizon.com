@@ -24,7 +24,7 @@ export default function AboutPage() {
   const ctaBackgroundImage = getImage('cta-background-train');
 
   return (
-    <div className="bg-background dark:bg-background-dark text-foreground font-display antialiased">
+    <div className="bg-background dark:bg-background-dark text-foreground font-body antialiased">
       {/* Hero Section */}
       <header className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
         <div 
@@ -41,7 +41,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
         </div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col gap-6 items-center">
-            <h1 className="text-white text-4xl md:text-6xl font-black leading-tight tracking-[-0.033em]">
+            <h1 className="text-white text-4xl md:text-6xl font-black leading-tight tracking-[-0.033em] font-display">
                 Discover the Real Sri Lanka with <span className="text-primary">LankaHorizon</span>
             </h1>
             <p className="text-white/90 text-lg md:text-xl font-normal leading-relaxed max-w-2xl">
@@ -81,7 +81,7 @@ export default function AboutPage() {
               <span className="w-8 h-1 bg-primary rounded-full"></span>
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Our Story</span>
             </div>
-            <h2 className="text-foreground dark:text-white text-3xl md:text-5xl font-black leading-tight tracking-tight">
+            <h2 className="text-foreground dark:text-white text-3xl md:text-5xl font-black leading-tight tracking-tight font-display">
                 Authentic Journeys, <br/>Rooted in Culture
             </h2>
             <p className="text-muted-foreground dark:text-gray-300 text-lg leading-relaxed">
@@ -132,7 +132,7 @@ export default function AboutPage() {
       <section className="py-20 bg-card dark:bg-[#162918] transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 md:px-10">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <h2 className="text-foreground dark:text-white text-3xl md:text-4xl font-black leading-tight">Why Choose LankaHorizon</h2>
+            <h2 className="text-foreground dark:text-white text-3xl md:text-4xl font-black leading-tight font-display">Why Choose LankaHorizon</h2>
             <p className="text-muted-foreground dark:text-gray-400 text-lg">Experience Sri Lanka like never before with our expert services tailored just for you.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -184,7 +184,7 @@ export default function AboutPage() {
       <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
           <div className="max-w-xl">
-            <h2 className="text-foreground dark:text-white text-3xl md:text-4xl font-black mb-4">Meet Our Local Guides</h2>
+            <h2 className="text-foreground dark:text-white text-3xl md:text-4xl font-black mb-4 font-display">Meet Our Local Guides</h2>
             <p className="text-muted-foreground dark:text-gray-400">Passionate individuals who make your journey unforgettable.</p>
           </div>
           <a className="text-primary font-bold hover:underline flex items-center gap-1" href="#">See All Team <span className="material-symbols-outlined text-sm">arrow_forward</span></a>
@@ -274,7 +274,7 @@ export default function AboutPage() {
               />
           </div>
           <div className="relative z-10 flex flex-col items-center justify-center text-center p-12 md:p-20 space-y-8">
-            <h2 className="text-white text-3xl md:text-5xl font-black leading-tight max-w-3xl">
+            <h2 className="text-white text-3xl md:text-5xl font-black leading-tight max-w-3xl font-display">
                 Ready for your tropical escape?<br/> Let's plan your trip today.
             </h2>
             <p className="text-gray-300 text-lg max-w-xl">
@@ -294,3 +294,5 @@ export default function AboutPage() {
     </div>
   );
 }
+
+    
