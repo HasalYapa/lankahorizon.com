@@ -53,7 +53,7 @@ export default function DestinationsPage() {
                 <div className="w-full lg:w-7/12 xl:w-1/2 flex flex-col items-center p-4 py-12 sm:p-12 lg:p-16 xl:p-24 overflow-y-auto">
                     <div className="w-full max-w-[600px] flex flex-col gap-8">
                         {/* Header */}
-                        <div className="flex flex-col gap-2 mt-8">
+                        <div className="flex flex-col gap-2 mt-12">
                             <h2 className="text-3xl sm:text-4xl font-bold text-text-light tracking-tight">
                                 Design Your Itinerary
                             </h2>
