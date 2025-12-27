@@ -17,14 +17,14 @@
     {
       "id": "southern-coast-adventure-tour",
       "description": "A beautiful sunset over a tropical beach in southern Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "galle sri lanka",
       "data-ai-placeholder": "true"
     },
     {
       "id": "cultural-triangle-explorer-tour",
       "description": "A traditional colorful Sri Lankan mask.",
-      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lankan mask",
       "data-ai-placeholder": "true"
     },
@@ -136,7 +136,7 @@
     {
       "id": "mirissa-destination",
       "description": "Mirissa beach with Parrot Rock.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
@@ -260,7 +260,7 @@
     {
       "id": "contact-hero-bg",
       "description": "Lush tropical palm trees and blue sky background",
-      "imageUrl": "https://lh3.googleusercontent.com/aida-public/AB6AXuAEdWCrBRKmbDJ6__N2z5zdnoHt7k2c_-5rdTQ3rcDASneASW9Y-wsvdYngZHdEZn6HjeN2o_pUce0FRUV5X82C19a7CHXLazhFYeBkID0l2uPe1gkoSfFXvAqX_V-maNqaXbO4N3nOoYb33sHAW0Z-KUZsNezcGAhNm5lGI7G9kW_v7rRMhn2GtfiaLuh3cKa_13G35TJiMPQMk8R8yBpZghmE1hEoO5a4IA4xsLhba96R6tZiV68Aa3548FYQAEB4-1hNNp6uLcC-",
+      "imageUrl": "https://images.unsplash.com/photo-1632201982550-ea0ca93d6896?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOXx8c3JpJTIwbGFua2ElMjBjb2xvbWJvfGVufDB8fHx8MTc2NjgwNTk0NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "palm trees"
     },
     {
