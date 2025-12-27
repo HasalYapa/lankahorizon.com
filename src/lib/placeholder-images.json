@@ -150,7 +150,7 @@
     {
       "id": "yala-national-park-destination",
       "description": "An elephant in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "yala national park",
       "data-ai-placeholder": "true"
     },
@@ -164,7 +164,7 @@
     {
       "id": "polonnaruwa-destination",
       "description": "Historic statues in Polonnaruwa.",
-      "imageUrl": "https://images.unsplash.com/photo-1627894224956-613c7f0d015c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xvbm5hcnV3YXxlbnwwfHx8fDE3NjY4Mjg5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1627894224956-613c7f0d015c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xvbm5hcnV3YXxlbnwwfHx8fDE3NjY4Mjg5MTJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "polonnaruwa statues",
       "data-ai-placeholder": "true"
     },
@@ -257,6 +257,12 @@
       "description": "A train crossing the Nine Arch Bridge in Ella, Sri Lanka.",
       "imageUrl": "https://images.unsplash.com/photo-1523975862609-33543b49e9c8?q=80&w=2670&auto=format&fit=crop",
       "imageHint": "train sri lanka"
+    },
+    {
+      "id": "about-us-hero-2",
+      "description": "A beautiful photo of a beach in Sri Lanka with palm trees and clear blue water.",
+      "imageUrl": "https://images.unsplash.com/photo-1593361184993-35639b28a883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcmklMjBsYW5rYSUyMGJlYWNofGVufDB8fHx8MTc2NjY2ODc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sri lanka beach"
     }
   ]
 }

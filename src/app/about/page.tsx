@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
-  const heroImage = getImage('about-us-hero');
+  const heroImage = getImage('about-us-hero-2');
   const stiltFishermenImage = getImage('stilt-fishermen');
   const sigiriyaImage = getImage('sigiriya-destination');
   const sereneBeachImage = getImage('serene-beach');
@@ -24,7 +24,7 @@ export default function AboutPage() {
   const ctaBackgroundImage = getImage('cta-background-train');
 
   return (
-    <div className="bg-background dark:bg-background-dark text-foreground font-body antialiased">
+    <div className="bg-background dark:bg-background-dark text-foreground font-body antialiased font-sans">
       {/* Hero Section */}
       <header className="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
         <div 
@@ -294,5 +294,3 @@ export default function AboutPage() {
     </div>
   );
 }
-
-    
