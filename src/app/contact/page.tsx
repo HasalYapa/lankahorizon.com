@@ -1,102 +1,112 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import Image from 'next/image';
-import { Mail, MapPin, Phone, Send } from 'lucide-react';
+import Link from 'next/link';
+import { Mail, MapPin, Phone, Send, MessageSquare } from 'lucide-react';
 import { COMPANY_EMAIL, COMPANY_LOCATION, COMPANY_NAME, WHATSAPP_LINK, WHATSAPP_NUMBER } from '@/lib/constants';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
 import { getImage } from '@/lib/placeholder-images';
+import { ContactForm } from '@/components/ContactForm';
+import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
   description: `Get in touch with ${COMPANY_NAME}. We're here to help you plan your perfect Sri Lankan getaway. Contact us via WhatsApp, email, or find our location.`,
 };
 
-const contactMethods = [
-  {
-    icon: Phone,
-    title: 'WhatsApp (Primary)',
-    content: `+${WHATSAPP_NUMBER}`,
-    action: 'Chat Now',
-    href: `${WHATSAPP_LINK}?text=${encodeURIComponent("Hello LankaHorizon!")}`,
-    isPrimary: true,
-  },
-  {
-    icon: Mail,
-    title: 'Email',
-    content: COMPANY_EMAIL,
-    action: 'Send Email',
-    href: `mailto:${COMPANY_EMAIL}`,
-    isPrimary: false,
-  },
-  {
-    icon: MapPin,
-    title: 'Our Office',
-    content: COMPANY_LOCATION,
-    action: 'View on Map',
-    href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(COMPANY_LOCATION)}`,
-    isPrimary: false,
-  },
-];
-
 export default function ContactPage() {
-  const heroImage = getImage('contact-page-hero');
-
-  return (
-    <div className="bg-background">
-      <div className="relative h-64 md:h-80 w-full">
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-center items-center text-center text-white">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Get In Touch</h1>
-          <p className="mt-4 max-w-2xl text-lg text-neutral-200">
-            We're excited to help you plan your adventure. Reach out to us with any questions!
-          </p>
-        </div>
-      </div>
-
-      <div className="container mx-auto px-6 py-16 lg:py-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {contactMethods.map((method) => (
-            <Card key={method.title} className={`flex flex-col shadow-lg hover:shadow-xl transition-shadow ${method.isPrimary ? 'border-primary border-2' : ''}`}>
-              <CardHeader className="items-center text-center">
-                <div className={`p-4 rounded-full mb-4 ${method.isPrimary ? 'bg-primary text-primary-foreground' : 'bg-primary/10 text-primary'}`}>
-                  <method.icon className="w-8 h-8" />
+    const heroImage = getImage('contact-hero-bg');
+    const mapImage = getImage('contact-map-bg');
+    
+    return (
+        <main className="flex flex-col w-full items-center bg-background">
+            <section className="w-full px-4 md:px-10 py-5 max-w-[1280px]">
+                <div className="flex min-h-[400px] md:min-h-[480px] flex-col gap-6 rounded-2xl md:rounded-[3rem] items-center justify-center p-8 relative overflow-hidden group shadow-2xl shadow-black/20">
+                    <Image
+                        src={heroImage.imageUrl}
+                        alt={heroImage.description}
+                        fill
+                        className="object-cover"
+                        priority
+                        data-ai-hint={heroImage.imageHint}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/50" />
+                    <div className="flex flex-col gap-3 text-center z-10 max-w-2xl">
+                        <h1 className="text-white text-4xl md:text-6xl font-black leading-tight tracking-tight drop-shadow-md">
+                            Get in Touch
+                        </h1>
+                        <h2 className="text-white/90 text-base md:text-lg font-normal leading-relaxed drop-shadow-sm">
+                            Plan your Sri Lankan adventure with us. Whether you have a question about a tour or want a custom itinerary, we are just a message away.
+                        </h2>
+                    </div>
+                    <Button asChild size="lg" className="z-10 mt-4 rounded-full text-base font-bold transition-all transform hover:scale-105 shadow-xl">
+                        <Link href="/custom-itinerary">
+                            Start Planning
+                        </Link>
+                    </Button>
                 </div>
-                <CardTitle>{method.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center flex-grow">
-                <p className="text-muted-foreground text-lg">{method.content}</p>
-              </CardContent>
-              <div className="p-6 pt-0">
-                <Button asChild className="w-full" variant={method.isPrimary ? 'default' : 'outline'}>
-                  <Link href={method.href} target="_blank" rel="noopener noreferrer">
-                    {method.action}
-                  </Link>
-                </Button>
-              </div>
-            </Card>
-          ))}
-        </div>
-         <div className="text-center mt-20">
-            <h2 className="text-2xl font-bold tracking-tight">Have a custom request?</h2>
-            <p className="mt-3 max-w-xl mx-auto text-muted-foreground">
-                Let us build your dream itinerary from scratch.
-            </p>
-            <Button size="lg" asChild className="mt-6">
-                <Link href="/custom-itinerary">
-                    Plan a Custom Trip <Send className="ml-2 h-5 w-5" />
-                </Link>
-            </Button>
-        </div>
-      </div>
-    </div>
-  );
+            </section>
+
+            <section className="w-full px-4 md:px-10 py-12 max-w-[1280px]">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                    <div className="lg:col-span-5 flex flex-col gap-8">
+                        <div>
+                            <h2 className="text-3xl font-bold mb-4">Contact Details</h2>
+                            <p className="text-muted-foreground">Reach out to us directly via phone, email, or visit our headquarters in the heart of Colombo.</p>
+                        </div>
+                        <div className="flex flex-col gap-4">
+                            <Link href={WHATSAPP_LINK} target="_blank" className="flex items-center gap-4 rounded-2xl border bg-card p-5 shadow-sm hover:shadow-md transition-shadow cursor-pointer group">
+                                <div className="flex items-center justify-center size-12 rounded-full bg-primary/10 group-hover:bg-primary/20 text-primary transition-colors">
+                                    <MessageSquare className="text-2xl" />
+                                </div>
+                                <div className="flex flex-col">
+                                    <h3 className="text-base font-bold">WhatsApp Support</h3>
+                                    <p className="text-primary font-medium">+{WHATSAPP_NUMBER}</p>
+                                </div>
+                            </Link>
+                            <a href={`mailto:${COMPANY_EMAIL}`} className="flex items-center gap-4 rounded-2xl border bg-card p-5 shadow-sm hover:shadow-md transition-shadow group">
+                                <div className="flex items-center justify-center size-12 rounded-full bg-blue-50 dark:bg-blue-900/20 group-hover:bg-blue-100 dark:group-hover:bg-blue-900/30 text-blue-500 dark:text-blue-400 transition-colors">
+                                    <Mail className="text-2xl" />
+                                </div>
+                                <div className="flex flex-col">
+                                    <h3 className="text-base font-bold">Email Address</h3>
+                                    <p className="text-muted-foreground">{COMPANY_EMAIL}</p>
+                                </div>
+                            </a>
+                            <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(COMPANY_LOCATION)}`} target="_blank" className="flex items-center gap-4 rounded-2xl border bg-card p-5 shadow-sm hover:shadow-md transition-shadow group">
+                                <div className="flex items-center justify-center size-12 rounded-full bg-orange-50 dark:bg-orange-900/20 group-hover:bg-orange-100 dark:group-hover:bg-orange-900/30 text-orange-500 dark:text-orange-400 transition-colors">
+                                    <MapPin className="text-2xl" />
+                                </div>
+                                <div className="flex flex-col">
+                                    <h3 className="text-base font-bold">Headquarters</h3>
+                                    <p className="text-muted-foreground">{COMPANY_LOCATION}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="lg:col-span-7 h-full min-h-[400px]">
+                        <div className="w-full h-full rounded-2xl md:rounded-[2rem] shadow-lg border-4 border-white dark:border-card object-cover overflow-hidden relative">
+                             <Image
+                                src={mapImage.imageUrl}
+                                alt={mapImage.description}
+                                fill
+                                className="object-cover"
+                                data-ai-hint={mapImage.imageHint}
+                            />
+                            <div className="absolute inset-0 bg-black/10 hover:bg-transparent transition-colors pointer-events-none"></div>
+                            <div className="absolute bottom-6 left-6 bg-card p-4 rounded-xl shadow-lg max-w-xs">
+                                <p className="text-xs font-bold text-muted-foreground uppercase tracking-wide mb-1">Our Location</p>
+                                <p className="text-sm font-semibold">Colombo 03, Sri Lanka</p>
+                                <a className="text-primary text-xs font-bold mt-2 inline-block hover:underline" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(COMPANY_LOCATION)}`} target="_blank">Get Directions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section className="w-full px-4 md:px-10 py-10 pb-20 max-w-[960px]">
+                <div className="bg-card rounded-[2rem] p-8 md:p-12 shadow-xl border">
+                   <ContactForm />
+                </div>
+            </section>
+        </main>
+    );
 }
