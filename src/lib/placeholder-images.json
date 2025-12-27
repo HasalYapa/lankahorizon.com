@@ -24,7 +24,7 @@
     {
       "id": "cultural-triangle-explorer-tour",
       "description": "A traditional colorful Sri Lankan mask.",
-      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYXNrJTIwc3JpJTIwbGFua2F8ZW58MHx8fHwxNzY2NzY3Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lankan mask",
       "data-ai-placeholder": "true"
     },
@@ -38,35 +38,35 @@
     {
       "id": "testimonial-avatar-1",
       "description": "Avatar for a happy couple.",
-      "imageUrl": "https://images.unsplash.com/photo-1541679368093-5c967ac6de11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMGNvdXBsZXxlbnwwfHx8fDE3NjY2NjgzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1614439196722-e31879584183?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBjb3VwbGV8ZW58MHx8fHwxNzY2ODA4ODg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "happy couple",
       "data-ai-placeholder": "true"
     },
     {
       "id": "testimonial-avatar-2",
       "description": "Avatar for a smiling woman.",
-      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2NzE1MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1559855603-ce4c8f480d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY2NzE1MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman smiling",
       "data-ai-placeholder": "true"
     },
     {
       "id": "testimonial-avatar-3",
       "description": "Avatar for a family.",
-      "imageUrl": "https://images.unsplash.com/photo-1661244291437-e2deefb43cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8dHJpcCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTU0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1602255680702-c47261041a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYW1pbHklMjBwaG90b3xlbnwwfHx8fDE3NjY4MDg4ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "family photo",
       "data-ai-placeholder": "true"
     },
     {
       "id": "kandy-destination",
       "description": "Temple of the Tooth Relic in Kandy.",
-      "imageUrl": "https://images.unsplash.com/photo-1707324021005-a3d0c48cfcbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keSUyMHRlbXBsZXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1707324021005-a3d0c48cfcbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keSUyMHRlbXBsZXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "kandy temple",
       "data-ai-placeholder": "true"
     },
     {
       "id": "sigiriya-destination",
       "description": "A stunning, high-resolution photograph of the majestic Sigiriya Rock Fortress in Sri Lanka, viewed from a distance with the lush green jungle surrounding its base and a clear blue sky above.",
-      "imageUrl": "https://images.unsplash.com/photo-1579762499131-38f374530863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgxMDExN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579762499131-38f374530863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWdpcml5YSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2NjgxMDExN3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sigiriya sri lanka",
       "data-ai-placeholder": "true"
     },
@@ -80,21 +80,21 @@
     {
       "id": "mirissa-beach",
       "description": "A stunning view of the iconic Parrot Rock in Mirissa, Sri Lanka, with waves crashing against the shore at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563115902-b6028bd035f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiZWFjaCUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc2NjI2MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mirissa beach",
       "data-ai-placeholder": "true"
     },
     {
       "id": "yala-safari",
       "description": "Elephants gathering at a national park in Sri Lanka",
-      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636966542391-8dd8a91f1390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx5YWxhfGVufDB8fHx8MTc2Njc2Nzc3NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "elephant safari",
       "data-ai-placeholder": "true"
     },
     {
       "id": "nine-arch-bridge-card",
       "description": "Famous Nine Arch Bridge in Ella Sri Lanka with train passing",
-      "imageUrl": "https://images.unsplash.com/photo-1578519050142-afb511e518de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzcmklMjBsYW5rYSUyMHRyYWlufGVufDB8fHx8MTc2Njc2MzI5Mnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcmklMjBsYW5rYSUyMHRyYWlufGVufDB8fHx8MTc2Njc2MzI5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sri lanka train",
       "data-ai-placeholder": "true"
     },
