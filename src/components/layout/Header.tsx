@@ -44,7 +44,7 @@ export function Header() {
 
             <div className="hidden md:flex">
                 <Button asChild className="group flex items-center justify-center h-12 px-6 bg-primary hover:bg-green-400 text-ocean-blue text-sm font-bold rounded-full transition-all duration-300 shadow-[0_4px_14px_0_rgba(19,236,37,0.39)] hover:shadow-[0_6px_20px_rgba(19,236,37,0.23)] hover:-translate-y-0.5">
-                    <Link href="/custom-itinerary">
+                    <Link href="/destinations">
                         <span className="mr-2">Plan Trip</span>
                         <MessageSquare className="w-5 h-5" />
                     </Link>
@@ -80,7 +80,7 @@ export function Header() {
                         ))}
                         </nav>
                         <Button asChild>
-                            <Link href="/custom-itinerary" onClick={() => setIsOpen(false)}>Plan Your Trip</Link>
+                            <Link href="/destinations" onClick={() => setIsOpen(false)}>Plan Your Trip</Link>
                         </Button>
                     </div>
                 </SheetContent>
