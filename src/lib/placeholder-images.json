@@ -17,7 +17,7 @@
     {
       "id": "southern-coast-adventure-tour",
       "description": "A beautiful sunset over a tropical beach in southern Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1704797390325-b057758d8c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8Z2FsbGV8ZW58MHx8fHwxNzY2NzcxNDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "galle sri lanka",
       "data-ai-placeholder": "true"
     },
@@ -31,14 +31,14 @@
     {
       "id": "highlands-and-wildlife-tour",
       "description": "A leopard in Yala National Park.",
-      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705936981588-a4192f66fcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aWxkbGlmZSUyMHNyaSUyMGxhbmthfGVufDB8fHx8MTc2Njc3MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "wildlife sri lanka",
       "data-ai-placeholder": "true"
     },
     {
       "id": "testimonial-avatar-1",
       "description": "Avatar for a happy couple.",
-      "imageUrl": "https://images.unsplash.com/photo-1614439196722-e31879584183?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBjb3VwbGV8ZW58MHx8fHwxNzY2ODA4ODg5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1614439196722-e31879584183?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBjb3VwbGV8ZW58MHx8fHwxNzY2ODA4ODg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "happy couple",
       "data-ai-placeholder": "true"
     },
@@ -52,13 +52,13 @@
     {
       "id": "testimonial-avatar-3",
       "description": "Scenic view of a train in Sri Lanka.",
-      "imageUrl": "https://images.unsplash.com/photo-1711524890054-6208c801aa21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0cmF2ZWwlMjBzcmklMjBsYW5rYXxlbnwwfHx8fDE3NjY4MTI0MjB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1711524890054-6208c801aa21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0cmF2ZWwlMjBzcmklMjBsYW5rYXxlbnwwfHx8fDE3NjY4MTI0MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "travel sri lanka"
     },
     {
       "id": "kandy-destination",
       "description": "Temple of the Tooth Relic in Kandy.",
-      "imageUrl": "https://images.unsplash.com/photo-1707324021005-a3d0c48cfcbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keSUyMHRlbXBsZXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1707324021005-a3d0c48cfcbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrYW5keSUyMHRlbXBsZXxlbnwwfHx8fDE3NjY3NTM1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kandy temple",
       "data-ai-placeholder": "true"
     },
@@ -270,9 +270,9 @@
     },
     {
       "id": "tours-hero-bg",
-      "description": "Airplane wing over clouds.",
-      "imageUrl": "/uploads/airport-396928_1920.jpg",
-      "imageHint": "airplane flight"
+      "description": "A bustling fish market in Sri Lanka.",
+      "imageUrl": "/uploads/fish-market-7519944_1920.jpg",
+      "imageHint": "fish market"
     }
   ]
 }
