@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
-  const heroImage = getImage('about-us-hero-2');
+  const heroImage = getImage('about-us-hero-main');
   const stiltFishermenImage = getImage('stilt-fishermen');
   const sigiriyaImage = getImage('sigiriya-destination');
   const sereneBeachImage = getImage('serene-beach');
