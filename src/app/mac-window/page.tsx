@@ -27,7 +27,7 @@ export default function MacWindowPage() {
                 </div>
               </div>
               <div className="grid w-full max-w-sm items-center gap-1.5">
-                <Label htmlFor="password"  className="text-gray-300">Password</label>
+                <Label htmlFor="password"  className="text-gray-300">Password</Label>
                 <Input type="password" id="password" placeholder="••••••••" className="bg-[#2a2a2a] border-[#444] text-white"/>
               </div>
             </div>
