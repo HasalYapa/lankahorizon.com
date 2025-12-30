@@ -12,4 +12,5 @@ export const NAV_ITEMS: NavItem[] = [
     { title: 'Destinations', href: '/destinations' }, // Points to tours page as a placeholder
     { title: 'About', href: '/about' },
     { title: 'Contact', href: '/contact' },
+    { title: 'Mac-Window', href: '/mac-window'},
 ];
