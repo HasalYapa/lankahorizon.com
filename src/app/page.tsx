@@ -1,3 +1,4 @@
+
 import { Hero } from '@/components/sections/Hero';
 import { DestinationHighlights } from '@/components/sections/DestinationHighlights';
 import { Features } from '@/components/sections/Features';
@@ -5,6 +6,7 @@ import { Cta } from '@/components/sections/Cta';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { FeaturedTours } from '@/components/sections/FeaturedTours';
 import { FaqSection } from '@/components/sections/FaqSection';
+
 
 const destinations = [
   { name: 'Kandy to Ella', imageId: 'kandy-ella-train', shortDesc: 'Scenic Train Ride' },

@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Clock, MapPin, Send, Route, MessageSquare } from 'lucide-react';

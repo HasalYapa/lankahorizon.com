@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { testimonials } from '@/lib/data';
 import { getImage } from '@/lib/placeholder-images';

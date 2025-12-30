@@ -1,3 +1,4 @@
+
 import { Map, Users, Heart, Sprout, Handshake, Gem } from 'lucide-react';
 
 const features = [

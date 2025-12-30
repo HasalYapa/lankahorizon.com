@@ -1,3 +1,4 @@
+
 import type { TourPackage, Testimonial, FaqItem } from './types';
 
 export const tourPackages: TourPackage[] = [
@@ -74,7 +75,7 @@ export const tourPackages: TourPackage[] = [
     durationInDays: 8,
     destinations: ['Bentota', 'Hikkaduwa'],
     description: 'Kid-friendly resorts with pools, turtle hatcheries, and gentle boat rides. Perfect for making memories.',
-    image: 'testimonial-avatar-3',
+    image: 'family-fun-sun-tour',
     price: 850,
     type: 'Family',
   }
