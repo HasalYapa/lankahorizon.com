@@ -25,13 +25,11 @@ export default function RootLayout({
       </head>
       <body className={cn('min-h-screen bg-background text-foreground font-body antialiased flex flex-col overflow-x-hidden')}>
         <ReactLenis root>
-          <div className="flex flex-col w-full">
-              <Header />
-              <main className="flex-grow">{children}</main>
-              <Footer />
-          </div>
-          <FloatingWhatsApp />
-          <Toaster />
+            <Header />
+            <main className="flex-grow">{children}</main>
+            <Footer />
+            <FloatingWhatsApp />
+            <Toaster />
         </ReactLenis>
       </body>
     </html>
