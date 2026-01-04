@@ -12,7 +12,6 @@ import { tourPackages } from '@/lib/data';
 import { ReactLenis } from 'lenis/react';
 
 const destinations = [
-  { name: 'Sigiriya', description: 'Climb the ancient rock fortress for breathtaking panoramic views.', imageId: 'sigiriya-destination', shortDesc: 'Ancient Rock Fortress' },
   { name: 'Kandy to Ella', description: 'Experience one of the world\'s most scenic train journeys.', imageId: 'kandy-ella-train', shortDesc: 'Scenic Train Ride' },
   { name: 'Mirissa', description: 'Relax on golden sands and spot majestic blue whales.', imageId: 'mirissa-beach', shortDesc: 'South Coast Beaches' },
   { name: 'Yala', description: 'Embark on a thrilling safari to see leopards, elephants, and more.', imageId: 'yala-safari', shortDesc: 'Safari Adventure' },
