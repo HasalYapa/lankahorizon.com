@@ -13,5 +13,4 @@ export const NAV_ITEMS: NavItem[] = [
     { title: 'Destinations', href: '/destinations' },
     { title: 'About', href: '/about' },
     { title: 'Contact', href: '/contact' },
-    { title: 'Mac-Window', href: '/mac-window'},
 ];
